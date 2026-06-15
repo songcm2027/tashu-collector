@@ -1,20 +1,16 @@
 import os, csv, sys, time, requests
 from datetime import datetime, timezone, timedelta
 
-URL = "https://apis.data.go.kr/6300000/openapi2022/tasuInfo/gettasuInfo"
+URL = "https://bikeapp.tashu.or.kr:50041/v1/openapi/station"
 KST = timezone(timedelta(hours=9))
 
-def fetch_items(key, retries=3):
-    params = {"serviceKey": key, "pageNo": 1, "numOfRows": 9999}
+def fetch_stations(token, retries=3):
+    headers = {"api-token": token}
     for attempt in range(1, retries + 1):
         try:
-            r = requests.get(URL, params=params, timeout=20)
+            r = requests.get(URL, headers=headers, timeout=30)
             r.raise_for_status()
-            data = r.json()
-            head = data["response"]["header"]
-            if head["resultCode"] not in ("C00", "00", "0"):
-                raise RuntimeError(f"API 오류: {head['resultCode']} {head.get('resultMsg')}")
-            return data["response"]["body"]["items"]
+            return r.json()["results"]
         except Exception as e:
             print(f"시도 {attempt}/{retries} 실패: {e}")
             if attempt < retries:
@@ -22,27 +18,26 @@ def fetch_items(key, retries=3):
     sys.exit("여러 번 시도했지만 실패했어요.")
 
 def main():
-    key = os.environ.get("TASHU_SERVICE_KEY")
-    if not key:
-        sys.exit("TASHU_SERVICE_KEY가 설정 안 됐어요.")
-
+    token = os.environ.get("TASHU_API_TOKEN")
+    if not token:
+        sys.exit("TASHU_API_TOKEN이 설정 안 됐어요.")
     now = datetime.now(KST)
     ts = now.strftime("%Y-%m-%d %H:%M:%S")
-    items = fetch_items(key)
+    stations = fetch_stations(token)
 
     os.makedirs("data", exist_ok=True)
-    path = f"data/tashu_{now.strftime('%Y-%m-%d')}.csv"
+    path = f"data/avail_{now.strftime('%Y-%m-%d')}.csv"
     new_file = not os.path.exists(path)
-    cols = ["collected_at_kst","kiosk_no","kiosk_id","name","district","address","lat","lon","count"]
+    cols = ["collected_at_kst","station_id","name","lat","lon","address","available_bikes"]
     with open(path, "a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if new_file:
             w.writerow(cols)
-        for it in items:
-            w.writerow([ts, it.get("kioskNo"), it.get("kioskId"), it.get("lcNm"),
-                        it.get("signgu"), it.get("adres"),
-                        it.get("laCrdnt"), it.get("loCrdnt"), it.get("dfrCo")])
-    print(f"[{ts} KST] {len(items)}개 저장 -> {path}")
+        for s in stations:
+            w.writerow([ts, s.get("id"), s.get("name"),
+                        s.get("x_pos"), s.get("y_pos"), s.get("address"),
+                        s.get("parking_count")])
+    print(f"[{ts} KST] {len(stations)}개 저장 -> {path}")
 
 if __name__ == "__main__":
     main()
