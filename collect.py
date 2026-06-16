@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 URL = "https://bikeapp.tashu.or.kr:50041/v1/openapi/station"
 KST = timezone(timedelta(hours=9))
 
-def fetch_stations(token, retries=3):
+def fetch_stations(token, retries=5):
     headers = {"api-token": token}
     for attempt in range(1, retries + 1):
         try:
@@ -14,17 +14,21 @@ def fetch_stations(token, retries=3):
         except Exception as e:
             print(f"시도 {attempt}/{retries} 실패: {e}")
             if attempt < retries:
-                time.sleep(3 * attempt)
-    sys.exit("여러 번 시도했지만 실패했어요.")
+                time.sleep(10 * attempt)   # wait longer each try (10s,20s,30s,40s)
+    return None
 
 def main():
     token = os.environ.get("TASHU_API_TOKEN")
     if not token:
         sys.exit("TASHU_API_TOKEN이 설정 안 됐어요.")
+
+    stations = fetch_stations(token)
+    if not stations:
+        print("타슈 서버 연결 실패 — 이번 회차 건너뜀 (다음 회차 자동 재시도).")
+        return   # exit 0: a transient blip is a skip, not a red failure
+
     now = datetime.now(KST)
     ts = now.strftime("%Y-%m-%d %H:%M:%S")
-    stations = fetch_stations(token)
-
     os.makedirs("data", exist_ok=True)
     path = f"data/avail_{now.strftime('%Y-%m-%d')}.csv"
     new_file = not os.path.exists(path)
