@@ -1,0 +1,30 @@
+name: Daily Tashu analysis
+on:
+  schedule:
+    - cron: "0 20 * * *"        # 05:00 KST daily
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install pandas requests ortools folium
+      - run: echo "${{ secrets.KMA_KEY }}" > kma_key.txt
+      - run: |
+          python3 build_db.py
+          python3 fetch_weather.py || echo "weather skipped"
+          python3 target_inventory.py
+          python3 route_optimized.py | tee plan.txt
+      - run: |
+          rm -f kma_key.txt
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -f target_inventory.csv route_map_optimized.html plan.txt
+          git commit -m "Daily analysis $(date -u +%F)" || echo "no changes"
+          git pull --rebase --autostash || true
+          git push || echo "push skipped"
