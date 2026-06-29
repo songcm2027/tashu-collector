@@ -1,36 +1,34 @@
-OPTIMIZED v2 (solver chooses donors) — 2026-06-29 08:45:40 (weekday 8:00)
-stops 31 | distance 49.9 km | delivered 177/177   (greedy 42.0, v1 53.9)
+OPTIMIZED v2 (solver chooses donors) — 2026-06-30 08:30:54 (weekday 8:00)
+stops 29 | distance 41.4 km | delivered 165/192   (greedy 42.0, v1 53.9)
 
- 1. 문화동 동산고등학교(문화1동 행정복지센터 건너편) +10 pick up    load=10
- 2. 도마네거리 하나은행                 +9 pick up     load=19
- 3. 내동 맑은아침아파트 121동 입구         -11 drop off   load=8
- 4. 둔산동 서구청                    +12 pick up    load=20
- 5. 탄방동 e편한세상(102동)            -13 drop off   load=7
- 6. 오정동 노촌어린이공원                +12 pick up    load=19
- 7. 둔산동 가람아파트 상가               -13 drop off   load=6
- 8. 대화동 복합문화센터                 +11 pick up    load=17
- 9. 둔산동 세이브존                   -10 drop off   load=7
-10. 오정동 오정로 호남선(가도교) 아래        +11 pick up    load=18
-11. 용문동 둔산더샵엘리프 2단지(204동)      -11 drop off   load=7
-12. 오정동 오정신용협동조합               +12 pick up    load=19
-13. 용두동 하늘채엘센트로                -10 drop off   load=9
-14. 용두동 오룡역 5번출구               +10 pick up    load=19
-15. 가장동 래미안 210동 건너편(스타벅스 옆)   -11 drop off   load=8
-16. 구성동 카이스트 나노종합기술원           +10 pick up    load=18
-17. 월평동 다모아아파트 상가              -14 drop off   load=4
-18. 가정동 화폐박물관                  +15 pick up    load=19
-19. 신성동 대림두레(101동)             -12 drop off   load=7
-20. 장동 한국에너지기술연구원 입구           +9 pick up     load=16
-21. 어은동 한빛아파트(126동 건너편)        -15 drop off   load=1
-22. 궁동 다솔아파트 입구                +11 pick up    load=12
-23. 어은동 어은치안센터 입구              -12 drop off   load=0
-24. 구성동 카이스트 서쪽 쪽문             +20 pick up    load=20
-25. 월평동 진달래아파트 상가 앞            -13 drop off   load=7
-26. 구성동 카이스트 창의학습관             +11 pick up    load=18
-27. 만년동 행정복지센터                 -11 drop off   load=7
-28. 도룡동 엑스포과학공원                +10 pick up    load=17
-29. 전민동 행정복지센터 건너편             -11 drop off   load=6
-30. 용산동 대전테크노파크용산동 에스피에스       +11 pick up    load=17
-31. 봉산동 송강프라자 대각선 건너편          -10 drop off   load=7
+ 1. 전민동 엑스포아파트 5단지 상가          +12 pick up    load=12
+ 2. 전민동 행정복지센터 건너편             -11 drop off   load=1
+ 3. 문지동 카이스트 문지캠퍼스             +9 pick up     load=10
+ 4. 서구 만년동 10(만년고 뒤편)          -10 drop off   load=0
+ 5. 가정동 화폐박물관                  +17 pick up    load=17
+ 6. 신성동 대림두레(101동)             -12 drop off   load=5
+ 7. 어은동 한국생명공학연구원 입구           +9 pick up     load=14
+ 8. 구성동 카이스트 다솜관               -14 drop off   load=0
+ 9. 봉명동 유성온천역 1번출구             +13 pick up    load=13
+10. 어은동 한빛아파트(126동 앞)          -13 drop off   load=0
+11. 봉명동 유성한가족 요양병원 소공원         +8 pick up     load=8
+12. 월평동 대전교통공사                 +12 pick up    load=20
+13. 월평동 진달래아파트 상가 앞            -13 drop off   load=7
+14. 어은동 유성구청                   +8 pick up     load=15
+15. 월평동 다모아아파트 상가              -13 drop off   load=2
+16. 봉명동 투유아파트 1차               +14 pick up    load=16
+17. 만년동 갑천네거리                  -10 drop off   load=6
+18. 구성동 카이스트 나노종합기술원           +12 pick up    load=18
+19. 만년동 행정복지센터                 -12 drop off   load=6
+20. 둔산동 서구청                    +10 pick up    load=16
+21. 둔산동 세이브존                   -10 drop off   load=6
+22. 오정동 국민연금공단 북대전지사 정류장       +13 pick up    load=19
+23. 둔산동 가람아파트 상가               -12 drop off   load=7
+24. 오정동 오정로 호남선(가도교) 아래        +13 pick up    load=20
+25. 탄방동 e편한세상(102동)            -13 drop off   load=7
+26. 오정동 대덕구청                   +12 pick up    load=19
+27. 용문동 둔산더샵엘리프 2단지(204동)      -12 drop off   load=7
+28. 문화동 문화육교 삼거리 아래            +10 pick up    load=17
+29. 태평동 동양파라곤 302동             -10 drop off   load=7
 
 Saved route_map_optimized.html
