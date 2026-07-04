@@ -1,26 +1,23 @@
-OPTIMIZED v2 (solver chooses donors) — 2026-07-04 08:30:58 (weekend 8:00)
-stops 21 | distance 26.0 km | delivered 55/55   (greedy 42.0, v1 53.9)
+OPTIMIZED v2 (solver chooses donors) — 2026-07-05 08:31:10 (weekend 8:00)
+stops 18 | distance 24.2 km | delivered 46/46   (greedy 42.0, v1 53.9)
 
- 1. 타슈 시험용 대여소                 +10 pick up    load=10
- 2. 반석동 외삼네거리 603동             -3 drop off    load=7
- 3. 하기동 송림마을 5단지(오시오칼국수)       -4 drop off    load=3
- 4. 궁동 충대정문오거리1(정문)            +9 pick up     load=12
- 5. 장대동 궁동2교 (죽동 방향)           -4 drop off    load=8
- 6. 월평1동 행정복지센터 옆              +10 pick up    load=18
- 7. 어은동 유성구청                   -4 drop off    load=14
- 8. 만년동 갑천네거리                  -3 drop off    load=11
- 9. 월평동 한아름아파트(108동)           -3 drop off    load=8
-10. 만년동 행정복지센터                 +11 pick up    load=19
-11. 만년동 왕가한정식                  -5 drop off    load=14
-12. 만년동 엑스포오피스텔                -3 drop off    load=11
-13. 둔산동 샘머리아파트(209동)           -5 drop off    load=6
-14. 둔산동 수정타운아파트 상가             +9 pick up     load=15
-15. 둔산동 국화아파트(501동)            -3 drop off    load=12
-16. 탄방동 한가람아파트                 -3 drop off    load=9
-17. 탄방동 1333                   -3 drop off    load=6
-18. 중촌동 푸르지오(102동)             +14 pick up    load=20
-19. 홍도동 새마을금고 본점 건너편           -3 drop off    load=17
-20. 유천동 서대전역 후문 출구             -5 drop off    load=12
-21. 도안동 도안 15단지 아이파크(1502동)    -4 drop off    load=8
+ 1. 용두동 하늘채엘센트로                +17 pick up    load=17
+ 2. 문화동 서대전공원 야외공연장 뒤편         -2 drop off    load=15
+ 3. 오류동 서대전역                   -3 drop off    load=12
+ 4. 태평동 시영아파트 4동               -3 drop off    load=9
+ 5. 태평동 태평오거리                  -5 drop off    load=4
+ 6. 탄방동 공무원연금공단 대전지부           -2 drop off    load=2
+ 7. 둔산동 수정타운아파트(1동)            -2 drop off    load=0
+ 8. 둔산동 수정타운아파트 상가             +15 pick up    load=15
+ 9. 둔산동 농협 둔산중앙지점              -3 drop off    load=12
+10. 둔산동 정부청사역 4번출구             -4 drop off    load=8
+11. 만년동 만년네거리 상록수아파트 104동      -3 drop off    load=5
+12. 만년동 기업은행                   -2 drop off    load=3
+13. 월평동 둔산테크노(월평주공3단지 뒤편)      +17 pick up    load=20
+14. 월평동 월평역 2번출구               -3 drop off    load=17
+15. 갈마동 상수도사업본부(갈마중학교입구 방면)정류장 -3 drop off    load=14
+16. 도안동 도안 15단지 아이파크(1502동)    -5 drop off    load=9
+17. 봉명동 자이아파트 GS25 앞           -3 drop off    load=6
+18. 하기동 송림마을 5단지(오시오칼국수)       -3 drop off    load=3
 
 Saved route_map_optimized.html
