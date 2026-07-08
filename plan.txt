@@ -1,32 +1,29 @@
-OPTIMIZED v2 (solver chooses donors) — 2026-07-08 08:15:55 (weekday 8:00)
-stops 27 | distance 35.9 km | delivered 124/124   (greedy 42.0, v1 53.9)
+OPTIMIZED v2 (solver chooses donors) — 2026-07-09 08:16:14 (weekday 8:00)
+stops 24 | distance 32.1 km | delivered 102/102   (greedy 42.0, v1 53.9)
 
- 1. 용두동 오룡역 5번출구               +14 pick up    load=14
- 2. 유천동 서대전역 후문 출구             -7 drop off    load=7
- 3. 태평동 어린이공원                  +11 pick up    load=18
- 4. 가장동 래미안 1단지 건너편(115동)      -6 drop off    load=12
- 5. 가장동 들말어린이공원                +8 pick up     load=20
- 6. 가장동 래미안 210동 건너편(스타벅스 옆)   -8 drop off    load=12
- 7. 용문동 둔산더샵엘리프 2단지(204동)      -10 drop off   load=2
- 8. 탄방동 공영주차장                  +10 pick up    load=12
- 9. 둔산동 세이브존                   -7 drop off    load=5
-10. 법동 영진로얄아파트 입구              +9 pick up     load=14
-11. 전민동 엑스포아파트 4단지(407동)       -6 drop off    load=8
-12. 전민동 청구 나래아파트 103동 앞        +12 pick up    load=20
-13. 전민동 엑스포아파트 4단지 건너편         -9 drop off    load=11
-14. 문지동 카이스트 문지캠퍼스             +9 pick up     load=20
-15. 월평동 다모아아파트 상가              -12 drop off   load=8
-16. 월평동 진달래아파트 상가 앞            -8 drop off    load=0
-17. 둔산동 정부청사 입구(남문)            +20 pick up    load=20
-18. 만년동 행정복지센터                 -8 drop off    load=12
-19. 만년동 갑천네거리                  -9 drop off    load=3
-20. 월평동 월평타운                   +8 pick up     load=11
-21. 어은동 어은치안센터 입구              -11 drop off   load=0
-22. 원신흥동 양우내안애                 +8 pick up     load=8
-23. 장대동 장대공원 내 놀이터 옆           +10 pick up    load=18
-24. 구성동 카이스트 서쪽 쪽문             -6 drop off    load=12
-25. 구성동 카이스트 다솜관               -10 drop off   load=2
-26. 가정동 화폐박물관                  +10 pick up    load=12
-27. 신성동 대림두레(101동)             -7 drop off    load=5
+ 1. 삼성동 한밭중네거리(북부교 방면)         +19 pick up    load=19
+ 2. 정동 대전역(대한통운 건너편)           -6 drop off    load=13
+ 3. 신흥동 신흥마을 102동              -5 drop off    load=8
+ 4. 유천동 서대전역 후문 출구             -7 drop off    load=1
+ 5. 태평동 어린이공원                  +13 pick up    load=14
+ 6. 가장동 래미안 210동 건너편(스타벅스 옆)   -8 drop off    load=6
+ 7. 탄방동 공영주차장                  +11 pick up    load=17
+ 8. 탄방동 1333                   -7 drop off    load=10
+ 9. 둔산동 정부청사 입구(남문)            +10 pick up    load=20
+10. 월평동 둔산테크노(월평주공3단지 뒤편)      -7 drop off    load=13
+11. 만년동 갑천네거리                  -7 drop off    load=6
+12. 월평동 진달래아파트 상가 앞            -6 drop off    load=0
+13. 월평동 대전일보                   +10 pick up    load=10
+14. 갈마동 갈마초교삼거리(갈마네거리방면) 정류장   -8 drop off    load=2
+15. 월평동 월평타운                   +13 pick up    load=15
+16. 상대동 상대초등학교                 -6 drop off    load=9
+17. 월평1동 행정복지센터 옆              +10 pick up    load=19
+18. 월평동 다모아아파트 상가              -9 drop off    load=10
+19. 서구 만년동 10(만년고 뒤편)          -7 drop off    load=3
+20. 가정동 화폐박물관                  +8 pick up     load=11
+21. 전민동 엑스포아파트 4단지 건너편         -7 drop off    load=4
+22. 전민동 청구 나래아파트 103동 앞        +11 pick up    load=15
+23. 관평동 한화 꿈에그린 10단지(1004동 앞)  -6 drop off    load=9
+24. 봉산동 송강프라자 대각선 건너편          -6 drop off    load=3
 
 Saved route_map_optimized.html
