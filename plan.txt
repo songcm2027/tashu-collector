@@ -1,25 +1,23 @@
-OPTIMIZED v2 (solver chooses donors) — 2026-07-11 08:31:29 (weekend 8:00)
-stops 20 | distance 20.4 km | delivered 64/64   (greedy 42.0, v1 53.9)
+OPTIMIZED v2 (solver chooses donors) — 2026-07-12 07:16:04 (weekend 7:00)
+stops 18 | distance 29.0 km | delivered 36/36   (greedy 42.0, v1 53.9)
 
- 1. 태평동 유등마을(112동)             +18 pick up    load=18
- 2. 오류동 서대전역                   -3 drop off    load=15
- 3. 가장동 래미안 1단지 건너편(115동)      -5 drop off    load=10
- 4. 가장동 래미안 210동 건너편(스타벅스 옆)   +9 pick up     load=19
- 5. 용문동 롯데백화점 뒤 우정어린이공원        -3 drop off    load=16
- 6. 갈마동 상수도사업본부(갈마중학교입구 방면)정류장 -3 drop off    load=13
- 7. 둔산동 샘머리아파트(209동)           -5 drop off    load=8
- 8. 만년동 왕가한정식                  -3 drop off    load=5
- 9. 만년동 만년네거리 상록수아파트 104동      -5 drop off    load=0
-10. 만년동 행정복지센터                 +11 pick up    load=11
-11. 구성동 카이스트 다솜관               -4 drop off    load=7
-12. 어은동 어은치안센터 입구              -6 drop off    load=1
-13. 월평1동 행정복지센터 옆              +17 pick up    load=18
-14. 궁동 버스정류장(유성구청 방향)          -3 drop off    load=15
-15. 궁동 다솔아파트 입구                -4 drop off    load=11
-16. 궁동 온천교(충남대학교 방면)           -3 drop off    load=8
-17. 봉명동 유성한가족 요양병원 소공원         +10 pick up    load=18
-18. 어은동 한빛아파트(126동 건너편)        -10 drop off   load=8
-19. 어은동 한빛아파트(126동 앞)          -4 drop off    load=4
-20. 하기동 송림마을 5단지(오시오칼국수)       -3 drop off    load=1
+ 1. 월평동 사정어린이공원                +15 pick up    load=15
+ 2. 월평동 진달래아파트 상가 앞            -3 drop off    load=12
+ 3. 봉명동 한진오피스텔                 -2 drop off    load=10
+ 4. 봉명동 도안 2단지 호반베르디움(211동)    -2 drop off    load=8
+ 5. 상대동 도안 9단지 트리풀시티(913동)     -2 drop off    load=6
+ 6. 도안동 갑천3블럭 트리풀시티(302동)      -3 drop off    load=3
+ 7. 변동 변동네거리(복음천하교회)           -2 drop off    load=1
+ 8. 태평동 삼부프라자                  +15 pick up    load=16
+ 9. 오류동 서대전네거리역 3번출구           -2 drop off    load=14
+10. 목동더샵리슈빌 남측                 -2 drop off    load=12
+11. 탄방동 e편한세상 정류장(용문네거리 방면)    -2 drop off    load=10
+12. 탄방동 공영주차장                  +10 pick up    load=20
+13. 둔산동 국화아파트(501동)            -2 drop off    load=18
+14. 둔산동 한마루아파트 5동              -4 drop off    load=14
+15. 둔산동 둥지아파트(107동)            -3 drop off    load=11
+16. 만년동 한밭수목원(동원)              -3 drop off    load=8
+17. 만년동 기업은행                   -2 drop off    load=6
+18. 문평동 구)대덕경찰서                -2 drop off    load=4
 
 Saved route_map_optimized.html
