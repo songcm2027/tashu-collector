@@ -1,31 +1,26 @@
 <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Tashu Live · 대전 타슈 실시간</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Tashu Live · 대전 타슈 실시간</title>
 <style>
 :root{--green:#0e9f6e;--red:#e5564b;--ink:#1f2933;--slate:#52606d;--bg:#f7faf9;--line:#e3eae7}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}
 .wrap{max-width:960px;margin:0 auto;padding:28px 20px 60px}
 .head{background:linear-gradient(135deg,#0e9f6e,#0ea5a5);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:22px}
-.head h1{font-size:30px;letter-spacing:-.02em}.head p{opacity:.9;margin-top:6px;font-size:14px}
+.head h1{font-size:30px}.head p{opacity:.9;margin-top:6px;font-size:14px}
 .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
 .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
-.card .n{font-size:30px;font-weight:800;color:var(--green);letter-spacing:-.02em}
-.card.red .n{color:var(--red)}.card .l{font-size:13px;color:var(--slate);margin-top:2px}
+.card .n{font-size:30px;font-weight:800;color:var(--green)}.card.red .n{color:var(--red)}.card .l{font-size:13px;color:var(--slate);margin-top:2px}
 .panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:22px}
 .panel h3{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--slate);margin-bottom:14px}
-.win{display:flex;gap:16px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
+.win{display:flex;gap:16px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line)}
 .win:last-child{border-bottom:none}
 .wt{flex:0 0 56px;font-weight:800;font-size:17px;color:var(--green)}
 .wl{font-size:12px;color:var(--slate);text-transform:uppercase;letter-spacing:.05em}
-.wb{font-size:17px;font-weight:700;margin:2px 0}
-.wf{font-size:13px;color:var(--slate)}.wf b{color:var(--green)}
+.wb{font-size:16px;font-weight:700;margin:2px 0}.wf{font-size:13px;color:var(--slate);margin-bottom:6px}.wf b{color:var(--green)}
+.maplink{color:var(--green);font-weight:700;font-size:13px;text-decoration:none}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px}
 .st{display:flex;justify-content:space-between;font-size:14px;padding:7px 0;border-bottom:1px solid var(--line)}
-.st .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
-.st b{color:var(--green)}.st.d b{color:var(--red)}
-.route{background:#0f1b18;color:#eaf2ef;border-radius:14px;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.route .big{font-size:24px;font-weight:800}.route a{color:#37c98f;font-weight:700;text-decoration:none}
+.st .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}.st b{color:var(--green)}.st.d b{color:var(--red)}
 .foot{color:var(--slate);font-size:13px;text-align:center;margin-top:26px}
 @media(max-width:720px){.grid,.cols{grid-template-columns:1fr 1fr}}
 </style></head><body><div class="wrap">
@@ -41,9 +36,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",san
   <div class="panel" style="margin:0"><h3>Needs bikes now</h3><div id="short"></div></div>
   <div class="panel" style="margin:0"><h3>Has surplus now</h3><div id="surp"></div></div>
 </div>
-<div class="route" id="routebox"><div><div style="font-size:13px;color:#8aa79c">Current optimized plan</div>
-  <div class="big" id="rkm">–</div></div>
-  <a href="route_map.html" target="_blank">View full route map →</a></div>
 <div class="foot">Auto-updates every morning from live Tashu data.</div>
 </div>
 <script>
@@ -58,11 +50,12 @@ fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('surp').innerHTML=d.surplus.map(s=>row(s,false)).join('');
   document.getElementById('sched-h').textContent="Today's rebalancing timetable ("+(d.daytype||'')+")";
   document.getElementById('sched').innerHTML=(d.schedule||[]).map(w=>
-    '<div class="win"><div class="wt">'+w.time+'</div><div><div class="wl">'+w.label+' · until '+w.until+
-    '</div><div class="wb">~'+w.bikes+' bikes to reposition</div><div class="wf">'+
-    (w.fill||[]).map(f=>f.name+' <b>+'+f.q+'</b>').join(' · ')+'</div></div></div>').join('');
-  if(d.route){document.getElementById('rkm').textContent=d.route.km+' km · '+d.route.stops+' stops · '+d.route.delivered+'/'+d.route.needed+' bikes';}
-  else{document.getElementById('routebox').style.display='none';}
+    '<div class="win"><div class="wt">'+w.time+'</div><div style="flex:1">'+
+    '<div class="wl">'+w.label+' · until '+w.until+'</div>'+
+    '<div class="wb">~'+w.bikes+' bikes'+(w.km?(' · '+w.km+' km route'):'')+'</div>'+
+    '<div class="wf">'+(w.fill||[]).map(f=>f.name+' <b>+'+f.q+'</b>').join(' · ')+'</div>'+
+    (w.map?('<a class="maplink" href="'+w.map+'" target="_blank">View this route map →</a>'):'')+
+    '</div></div>').join('');
 }).catch(e=>{document.getElementById('upd').textContent='Data loading…';});
 setInterval(()=>location.reload(),300000);
 </script></body></html>
