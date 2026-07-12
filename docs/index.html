@@ -12,14 +12,20 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",san
 .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
 .card .n{font-size:30px;font-weight:800;color:var(--green);letter-spacing:-.02em}
 .card.red .n{color:var(--red)}.card .l{font-size:13px;color:var(--slate);margin-top:2px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px;margin-bottom:22px}
+.panel h3{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--slate);margin-bottom:14px}
+.win{display:flex;gap:16px;align-items:flex-start;padding:13px 0;border-bottom:1px solid var(--line)}
+.win:last-child{border-bottom:none}
+.wt{flex:0 0 56px;font-weight:800;font-size:17px;color:var(--green)}
+.wl{font-size:12px;color:var(--slate);text-transform:uppercase;letter-spacing:.05em}
+.wb{font-size:17px;font-weight:700;margin:2px 0}
+.wf{font-size:13px;color:var(--slate)}.wf b{color:var(--green)}
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px}
-.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
-.panel h3{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--slate);margin-bottom:12px}
 .st{display:flex;justify-content:space-between;font-size:14px;padding:7px 0;border-bottom:1px solid var(--line)}
 .st .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
 .st b{color:var(--green)}.st.d b{color:var(--red)}
 .route{background:#0f1b18;color:#eaf2ef;border-radius:14px;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
-.route .big{font-size:26px;font-weight:800}.route a{color:#37c98f;font-weight:700;text-decoration:none}
+.route .big{font-size:24px;font-weight:800}.route a{color:#37c98f;font-weight:700;text-decoration:none}
 .foot{color:var(--slate);font-size:13px;text-align:center;margin-top:26px}
 @media(max-width:720px){.grid,.cols{grid-template-columns:1fr 1fr}}
 </style></head><body><div class="wrap">
@@ -28,16 +34,17 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",san
   <div class="card"><div class="n" id="avail">–</div><div class="l">bikes available now</div></div>
   <div class="card red"><div class="n" id="empty">–</div><div class="l">empty stations</div></div>
   <div class="card red"><div class="n" id="pct">–</div><div class="l">of stations empty</div></div>
-  <div class="card"><div class="n" id="move">–</div><div class="l">bikes to reposition</div></div>
+  <div class="card"><div class="n" id="move">–</div><div class="l">bikes to reposition now</div></div>
 </div>
+<div class="panel"><h3 id="sched-h">Today's rebalancing timetable</h3><div id="sched"></div></div>
 <div class="cols">
-  <div class="panel"><h3>Needs bikes now</h3><div id="short"></div></div>
-  <div class="panel"><h3>Has surplus now</h3><div id="surp"></div></div>
+  <div class="panel" style="margin:0"><h3>Needs bikes now</h3><div id="short"></div></div>
+  <div class="panel" style="margin:0"><h3>Has surplus now</h3><div id="surp"></div></div>
 </div>
-<div class="route" id="routebox"><div><div style="font-size:13px;color:#8aa79c">Today's optimized plan</div>
+<div class="route" id="routebox"><div><div style="font-size:13px;color:#8aa79c">Current optimized plan</div>
   <div class="big" id="rkm">–</div></div>
   <a href="route_map.html" target="_blank">View full route map →</a></div>
-<div class="foot" id="foot">Auto-updates every morning from live Tashu data.</div>
+<div class="foot">Auto-updates every morning from live Tashu data.</div>
 </div>
 <script>
 function row(s,d){return '<div class="st'+(d?' d':'')+'"><span class="nm">'+s.name+'</span><b>'+s.have+' / '+s.target+'</b></div>';}
@@ -49,8 +56,13 @@ fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
   document.getElementById('move').textContent=d.to_add;
   document.getElementById('short').innerHTML=d.short.map(s=>row(s,true)).join('');
   document.getElementById('surp').innerHTML=d.surplus.map(s=>row(s,false)).join('');
+  document.getElementById('sched-h').textContent="Today's rebalancing timetable ("+(d.daytype||'')+")";
+  document.getElementById('sched').innerHTML=(d.schedule||[]).map(w=>
+    '<div class="win"><div class="wt">'+w.time+'</div><div><div class="wl">'+w.label+' · until '+w.until+
+    '</div><div class="wb">~'+w.bikes+' bikes to reposition</div><div class="wf">'+
+    (w.fill||[]).map(f=>f.name+' <b>+'+f.q+'</b>').join(' · ')+'</div></div></div>').join('');
   if(d.route){document.getElementById('rkm').textContent=d.route.km+' km · '+d.route.stops+' stops · '+d.route.delivered+'/'+d.route.needed+' bikes';}
   else{document.getElementById('routebox').style.display='none';}
-}).catch(e=>{document.getElementById('upd').textContent='Data loading… (first run may still be publishing)';});
+}).catch(e=>{document.getElementById('upd').textContent='Data loading…';});
 setInterval(()=>location.reload(),300000);
 </script></body></html>
