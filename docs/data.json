@@ -1,88 +1,88 @@
 {
-  "updated": "2026-07-12 16:46 UTC",
-  "snapshot": "2026-07-13 01:31:23",
+  "updated": "2026-07-12 22:35 UTC",
+  "snapshot": "2026-07-13 07:31:23",
   "daytype": "weekday",
   "stations": 1373,
-  "available": 2600,
-  "empty": 657,
-  "empty_pct": 47.9,
-  "to_add": 303,
+  "available": 2380,
+  "empty": 672,
+  "empty_pct": 48.9,
+  "to_add": 1021,
   "short": [
     {
-      "name": "봉명동 노블레스3",
-      "have": 0,
-      "target": 5
-    },
-    {
-      "name": "봉명동 자이아파트 GS25 앞",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "봉명동 매드블럭",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "봉명동 스카이뷰로드오피스텔 건너편",
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
       "have": 1,
-      "target": 4
+      "target": 14
     },
     {
-      "name": "탄방동 한가람네거리 삼성디지털프라자",
-      "have": 0,
-      "target": 3
+      "name": "만년동 행정복지센터",
+      "have": 1,
+      "target": 11
     },
     {
-      "name": "둔산동 큰마을네거리",
+      "name": "둔산동 가람아파트 상가",
+      "have": 3,
+      "target": 10
+    },
+    {
+      "name": "봉산동 송강프라자 대각선 건너편",
       "have": 0,
-      "target": 3
+      "target": 7
+    },
+    {
+      "name": "월평동 은뜰마을아파트 201동 앞",
+      "have": 2,
+      "target": 9
+    },
+    {
+      "name": "죽동 대원칸타빌",
+      "have": 0,
+      "target": 7
     }
   ],
   "surplus": [
     {
       "name": "구성동 카이스트 다솜관",
-      "have": 45,
-      "target": 2
+      "have": 48,
+      "target": 4
     },
     {
       "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 32,
-      "target": 3
-    },
-    {
-      "name": "태평동 동양파라곤 302동",
-      "have": 24,
-      "target": 0
+      "have": 34,
+      "target": 7
     },
     {
       "name": "홍도동 새마을금고 본점 건너편",
-      "have": 24,
+      "have": 22,
       "target": 2
     },
     {
-      "name": "용문동 도산서원(남선공원네거리 방면) 정류장",
-      "have": 20,
+      "name": "정동 대전역(대한통운 건너편)",
+      "have": 21,
+      "target": 2
+    },
+    {
+      "name": "가장동 들말어린이공원",
+      "have": 17,
       "target": 1
     },
     {
-      "name": "신성동 대림두레(101동)",
+      "name": "삼성동 한밭빌라",
       "have": 19,
-      "target": 0
+      "target": 3
     }
   ],
   "route": {
-    "stops": 18,
-    "km": 12.9,
-    "delivered": 42,
-    "needed": 42
+    "stops": 26,
+    "km": 44.3,
+    "delivered": 106,
+    "needed": 106
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 962,
+      "bikes": 983,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,7 +106,7 @@
         }
       ],
       "map": "route_05.html",
-      "km": 24.5,
+      "km": 26.9,
       "stops": 25
     },
     {
