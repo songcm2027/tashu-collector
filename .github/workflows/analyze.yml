@@ -1,7 +1,7 @@
 name: Daily Tashu analysis
 on:
   schedule:
-    - cron: "0 20 * * *"        # 05:00 KST daily
+    - cron: "0 20 * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,11 +20,13 @@ jobs:
           python3 fetch_weather.py || echo "weather skipped"
           python3 target_inventory.py
           python3 route_optimized.py | tee plan.txt
+          python3 dashboard.py
+          cp -f route_map_optimized.html docs/route_map.html
       - run: |
           rm -f kma_key.txt
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add -f target_inventory.csv route_map_optimized.html plan.txt
-          git commit -m "Daily analysis $(date -u +%F)" || echo "no changes"
+          git add -f target_inventory.csv route_map_optimized.html plan.txt docs/data.json docs/route_map.html
+          git commit -m "Daily update $(date -u +%F)" || echo "no changes"
           git pull --rebase --autostash || true
           git push || echo "push skipped"

@@ -1,0 +1,56 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tashu Live · 대전 타슈 실시간</title>
+<style>
+:root{--green:#0e9f6e;--red:#e5564b;--ink:#1f2933;--slate:#52606d;--bg:#f7faf9;--line:#e3eae7}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--ink)}
+.wrap{max-width:960px;margin:0 auto;padding:28px 20px 60px}
+.head{background:linear-gradient(135deg,#0e9f6e,#0ea5a5);color:#fff;border-radius:18px;padding:26px 28px;margin-bottom:22px}
+.head h1{font-size:30px;letter-spacing:-.02em}.head p{opacity:.9;margin-top:6px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:22px}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.card .n{font-size:30px;font-weight:800;color:var(--green);letter-spacing:-.02em}
+.card.red .n{color:var(--red)}.card .l{font-size:13px;color:var(--slate);margin-top:2px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:22px}
+.panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}
+.panel h3{font-size:14px;text-transform:uppercase;letter-spacing:.08em;color:var(--slate);margin-bottom:12px}
+.st{display:flex;justify-content:space-between;font-size:14px;padding:7px 0;border-bottom:1px solid var(--line)}
+.st .nm{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:70%}
+.st b{color:var(--green)}.st.d b{color:var(--red)}
+.route{background:#0f1b18;color:#eaf2ef;border-radius:14px;padding:20px 24px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px}
+.route .big{font-size:26px;font-weight:800}.route a{color:#37c98f;font-weight:700;text-decoration:none}
+.foot{color:var(--slate);font-size:13px;text-align:center;margin-top:26px}
+@media(max-width:720px){.grid,.cols{grid-template-columns:1fr 1fr}}
+</style></head><body><div class="wrap">
+<div class="head"><h1>🚲 Tashu Live · 대전 타슈</h1><p id="upd">Loading…</p></div>
+<div class="grid">
+  <div class="card"><div class="n" id="avail">–</div><div class="l">bikes available now</div></div>
+  <div class="card red"><div class="n" id="empty">–</div><div class="l">empty stations</div></div>
+  <div class="card red"><div class="n" id="pct">–</div><div class="l">of stations empty</div></div>
+  <div class="card"><div class="n" id="move">–</div><div class="l">bikes to reposition</div></div>
+</div>
+<div class="cols">
+  <div class="panel"><h3>Needs bikes now</h3><div id="short"></div></div>
+  <div class="panel"><h3>Has surplus now</h3><div id="surp"></div></div>
+</div>
+<div class="route" id="routebox"><div><div style="font-size:13px;color:#8aa79c">Today's optimized plan</div>
+  <div class="big" id="rkm">–</div></div>
+  <a href="route_map.html" target="_blank">View full route map →</a></div>
+<div class="foot" id="foot">Auto-updates every morning from live Tashu data.</div>
+</div>
+<script>
+function row(s,d){return '<div class="st'+(d?' d':'')+'"><span class="nm">'+s.name+'</span><b>'+s.have+' / '+s.target+'</b></div>';}
+fetch('data.json?t='+Date.now()).then(r=>r.json()).then(d=>{
+  document.getElementById('upd').textContent='Snapshot: '+d.snapshot+'  ·  built '+d.updated+'  ·  '+d.stations+' stations';
+  document.getElementById('avail').textContent=d.available.toLocaleString();
+  document.getElementById('empty').textContent=d.empty;
+  document.getElementById('pct').textContent=d.empty_pct+'%';
+  document.getElementById('move').textContent=d.to_add;
+  document.getElementById('short').innerHTML=d.short.map(s=>row(s,true)).join('');
+  document.getElementById('surp').innerHTML=d.surplus.map(s=>row(s,false)).join('');
+  if(d.route){document.getElementById('rkm').textContent=d.route.km+' km · '+d.route.stops+' stops · '+d.route.delivered+'/'+d.route.needed+' bikes';}
+  else{document.getElementById('routebox').style.display='none';}
+}).catch(e=>{document.getElementById('upd').textContent='Data loading… (first run may still be publishing)';});
+setInterval(()=>location.reload(),300000);
+</script></body></html>
