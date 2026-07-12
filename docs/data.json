@@ -1,58 +1,63 @@
 {
-  "updated": "2026-07-12 15:52 UTC",
-  "snapshot": "2026-07-13 00:46:07",
+  "updated": "2026-07-12 16:12 UTC",
+  "snapshot": "2026-07-13 01:01:29",
   "stations": 1373,
-  "available": 2563,
-  "empty": 660,
-  "empty_pct": 48.1,
-  "to_add": 533,
+  "available": 2574,
+  "empty": 655,
+  "empty_pct": 47.7,
+  "to_add": 302,
   "short": [
     {
-      "name": "봉명동 하이랜드 1차",
-      "have": 0,
-      "target": 6
-    },
-    {
-      "name": "둔산동 샘머리아파트(107동)",
-      "have": 0,
-      "target": 5
-    },
-    {
       "name": "봉명동 스카이뷰로드오피스텔 건너편",
-      "have": 0,
+      "have": 1,
       "target": 4
     },
     {
-      "name": "도안동 예미지(101동)",
-      "have": 0,
+      "name": "봉명동 매드블럭",
+      "have": 1,
       "target": 4
     },
     {
-      "name": "둔산동 정부청사역 4번출구",
+      "name": "봉명동 하이랜드 1차",
+      "have": 1,
+      "target": 4
+    },
+    {
+      "name": "탄방동 한가람네거리 삼성디지털프라자",
       "have": 0,
       "target": 3
     },
     {
-      "name": "정동 대전역(대한통운 건너편)",
+      "name": "봉명동 한진오피스텔",
       "have": 0,
       "target": 3
+    },
+    {
+      "name": "궁동 충남대학교(온천교 방면)",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
       "name": "구성동 카이스트 다솜관",
       "have": 44,
-      "target": 5
-    },
-    {
-      "name": "홍도동 새마을금고 본점 건너편",
-      "have": 26,
-      "target": 1
+      "target": 2
     },
     {
       "name": "태평동 동양파라곤 302동",
       "have": 24,
-      "target": 1
+      "target": 0
+    },
+    {
+      "name": "홍도동 새마을금고 본점 건너편",
+      "have": 24,
+      "target": 2
+    },
+    {
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 23,
+      "target": 3
     },
     {
       "name": "용문동 도산서원(남선공원네거리 방면) 정류장",
@@ -60,20 +65,15 @@
       "target": 1
     },
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 22,
-      "target": 4
-    },
-    {
-      "name": "오정동 국민연금공단 북대전지사 정류장",
+      "name": "노은동 열매마을 9단지(910동)",
       "have": 18,
-      "target": 1
+      "target": 0
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 36.0,
-    "delivered": 52,
-    "needed": 52
+    "stops": 17,
+    "km": 23.8,
+    "delivered": 35,
+    "needed": 35
   }
 }

@@ -1,25 +1,22 @@
-OPTIMIZED v2 (solver chooses donors) — 2026-07-13 00:46:07 (weekday 0:00)
-stops 20 | distance 36.0 km | delivered 52/52   (greedy 42.0, v1 53.9)
+OPTIMIZED — 2026-07-13 01:01:29 (weekday 1:00)
+stops 17 | distance 23.8 km | delivered 35/35
 
- 1. 송강동 송강동네거리 송강마을아파트 방면      +14 pick up    load=14
- 2. 관평동 테크노타워                  -3 drop off    load=11
- 3. 둔산동 샘머리아파트(107동)           -5 drop off    load=6
- 4. 월평동 황실타운 상가                -3 drop off    load=3
- 5. 둔산동 현대해상                   -3 drop off    load=0
- 6. 탄방동 대전 도산서원입구              +11 pick up    load=11
- 7. 정동 대전역(대한통운 건너편)           -3 drop off    load=8
- 8. 오류동 서대전네거리역 3번출구           -3 drop off    load=5
- 9. 산성동 당대어린이공원                +9 pick up     load=14
-10. 가수원동 도미노피자 대전도안점           -3 drop off    load=11
-11. 도안동 예미지(101동)              -4 drop off    load=7
-12. 봉명동 투유아파트 1차               -3 drop off    load=4
-13. 봉명동 노블레스3                  -3 drop off    load=1
-14. 궁동 다솔아파트 입구                +13 pick up    load=14
-15. 봉명동 하이랜드 1차                -6 drop off    load=8
-16. 봉명동 매드블럭                   -3 drop off    load=5
-17. 봉명동 스카이뷰로드오피스텔 건너편         -4 drop off    load=1
-18. 노은동 열매마을 9단지(910동)         +17 pick up    load=18
-19. 지족동 노은역 3번출구               -3 drop off    load=15
-20. 반석동 반석마을5단지아파트 503동 정류장    -3 drop off    load=12
+ 1. 용두동 하늘채엘센트로                +15  load=15
+ 2. 탄방동 한가람네거리 삼성디지털프라자        -3  load=12
+ 3. 변동 변동네거리(복음천하교회)           -2  load=10
+ 4. 도안동 도안 17단지 베르디움(104동)     -2  load=8
+ 5. 도안동 예미지(101동)              -2  load=6
+ 6. 봉명동 원골네거리(진터네거리 방면)        -2  load=4
+ 7. 봉명동 호텔인터시티                 -2  load=2
+ 8. 봉명동 노블레스3                  -2  load=0
+ 9. 어은동 한빛아파트(126동 건너편)        +20  load=20
+10. 봉명동 하이랜드 1차                -3  load=17
+11. 봉명동 사이언스타운                 -2  load=15
+12. 봉명동 홍인 오피스텔                -2  load=13
+13. 봉명동 스카이뷰로드오피스텔 건너편         -3  load=10
+14. 봉명동 한진오피스텔                 -3  load=7
+15. 봉명동 매드블럭                   -3  load=4
+16. 궁동 온천교(충남대학교 방면)           -2  load=2
+17. 관평동 테크노타워                  -2  load=0
 
 Saved route_map_optimized.html
