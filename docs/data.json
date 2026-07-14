@@ -1,17 +1,27 @@
 {
-  "updated": "2026-07-13 20:55 UTC",
-  "snapshot": "2026-07-14 05:46:29",
+  "updated": "2026-07-14 20:56 UTC",
+  "snapshot": "2026-07-15 05:46:29",
   "daytype": "weekday",
-  "stations": 1373,
-  "available": 2647,
-  "empty": 648,
-  "empty_pct": 47.2,
-  "to_add": 206,
+  "stations": 1371,
+  "available": 2748,
+  "empty": 605,
+  "empty_pct": 44.1,
+  "to_add": 162,
   "short": [
     {
-      "name": "둔산동 샘머리아파트(209동)",
+      "name": "중촌동 제일프라자",
       "have": 0,
-      "target": 4
+      "target": 2
+    },
+    {
+      "name": "중리동 중리지구대 건너편 정류장",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "탄방동 e편한세상(109동)",
+      "have": 0,
+      "target": 2
     },
     {
       "name": "갈마동 상수도사업본부(갈마중학교입구 방면)정류장",
@@ -19,74 +29,64 @@
       "target": 2
     },
     {
-      "name": "봉산동 휴먼시아(102동)",
+      "name": "용전동 한국통신 용전지점",
       "have": 0,
       "target": 2
     },
     {
-      "name": "만년동 기업은행",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "봉명동 스카이뷰로드오피스텔 건너편",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "목동더샵리슈빌 정문",
+      "name": "용문동 용문역 3번출구",
       "have": 0,
       "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 32,
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
+      "have": 25,
+      "target": 3
+    },
+    {
+      "name": "어은동 어은치안센터 입구",
+      "have": 21,
       "target": 2
     },
     {
-      "name": "용두동 하늘채엘센트로",
-      "have": 26,
-      "target": 1
-    },
-    {
-      "name": "장대동 장대공원 내 놀이터 옆",
-      "have": 23,
+      "name": "봉명동 노블레스3",
+      "have": 21,
       "target": 2
     },
     {
-      "name": "변동 필통수입차부품 정류장",
+      "name": "태평동 동양파라곤 302동",
+      "have": 20,
+      "target": 2
+    },
+    {
+      "name": "월평동 월평타운",
       "have": 18,
-      "target": 0
-    },
-    {
-      "name": "서구 만년동 10(만년고 뒤편)",
-      "have": 19,
       "target": 1
     },
     {
-      "name": "월평1동 행정복지센터 옆",
-      "have": 19,
+      "name": "삼성동 한밭빌라",
+      "have": 18,
       "target": 1
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 33.1,
-    "delivered": 32,
-    "needed": 32
+    "stops": 18,
+    "km": 25.8,
+    "delivered": 28,
+    "needed": 28
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1003,
+      "bikes": 1029,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
-          "q": 21
+          "q": 20
         },
         {
           "name": "궁동 충남대학교 학생회관",
@@ -101,19 +101,19 @@
           "q": 7
         },
         {
-          "name": "어은동 유성구청",
+          "name": "둔산동 세이브존",
           "q": 7
         }
       ],
       "map": "route_05.html",
-      "km": 27.8,
+      "km": 28.6,
       "stops": 26
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 790,
+      "bikes": 813,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -137,14 +137,14 @@
         }
       ],
       "map": "route_10.html",
-      "km": 17.5,
-      "stops": 21
+      "km": 14.5,
+      "stops": 20
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1944,
+      "bikes": 1991,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 59.7,
-      "stops": 35
+      "km": 67.1,
+      "stops": 39
     }
   ]
 }
