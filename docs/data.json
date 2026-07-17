@@ -1,175 +1,144 @@
 {
-  "updated": "2026-07-16 20:54 UTC",
-  "snapshot": "2026-07-17 05:46:28",
-  "daytype": "weekday",
+  "updated": "2026-07-17 20:48 UTC",
+  "snapshot": "2026-07-18 05:31:28",
+  "daytype": "weekend",
   "stations": 1373,
-  "available": 2686,
-  "empty": 658,
-  "empty_pct": 47.9,
-  "to_add": 183,
+  "available": 2619,
+  "empty": 668,
+  "empty_pct": 48.7,
+  "to_add": 104,
   "short": [
     {
-      "name": "만년동 초원아파트105동 육교 밑",
+      "name": "둔산동 큰마을네거리",
       "have": 0,
       "target": 3
     },
     {
-      "name": "탄방동 e편한세상(102동)",
+      "name": "월평동 다모아아파트 상가",
       "have": 0,
-      "target": 3
+      "target": 2
     },
     {
-      "name": "선화동 대전한신더휴리저브 1102동",
+      "name": "봉명동 스카이뷰로드오피스텔 건너편",
       "have": 1,
       "target": 3
     },
     {
-      "name": "용전동 한국통신 용전지점",
+      "name": "가양동 대주파크빌 이마트24",
       "have": 0,
       "target": 2
     },
     {
-      "name": "갈마동 경성큰마을아파트(46)",
+      "name": "도안동 하나은행",
       "have": 0,
       "target": 2
     },
     {
-      "name": "산성동 도림빌라",
+      "name": "대흥동 YWCA ",
       "have": 0,
       "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 34,
-      "target": 2
-    },
-    {
-      "name": "오정동 한남육교 아래",
-      "have": 28,
+      "name": "태평동 버드내초등학교",
+      "have": 37,
       "target": 1
     },
     {
       "name": "홍도동 새마을금고 본점 건너편",
-      "have": 27,
-      "target": 2
-    },
-    {
-      "name": "태평동 버드내초등학교",
-      "have": 26,
+      "have": 30,
       "target": 1
     },
     {
-      "name": "태평동 동양파라곤 302동",
+      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
       "have": 25,
       "target": 2
     },
     {
       "name": "가장동 래미안 1단지 건너편(115동)",
-      "have": 25,
-      "target": 2
+      "have": 21,
+      "target": 0
+    },
+    {
+      "name": "전민동 엑스포아파트 307동",
+      "have": 20,
+      "target": 1
+    },
+    {
+      "name": "궁동 다솔아파트 입구",
+      "have": 22,
+      "target": 3
     }
   ],
   "route": {
     "stops": 17,
-    "km": 29.1,
-    "delivered": 30,
-    "needed": 30
+    "km": 23.2,
+    "delivered": 28,
+    "needed": 28
   },
   "schedule": [
     {
       "time": "05:00",
-      "until": "10:00",
-      "label": "before morning peak",
-      "bikes": 1080,
+      "until": "13:00",
+      "label": "early morning",
+      "bikes": 892,
       "fill": [
         {
-          "name": "둔산동 정부청사 입구(남문)",
-          "q": 21
-        },
-        {
-          "name": "궁동 충남대학교 학생회관",
-          "q": 8
-        },
-        {
-          "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
+          "name": "둔산동 타임월드",
           "q": 7
         },
         {
-          "name": "상대동 상대초등학교",
+          "name": "갈마동 갈마역 2번출구",
           "q": 7
         },
         {
-          "name": "둔산동 세이브존",
+          "name": "구성동 카이스트 서쪽 쪽문",
           "q": 7
+        },
+        {
+          "name": "구암동 구암역 3번출구",
+          "q": 7
+        },
+        {
+          "name": "둔산동 정부청사역 4번출구",
+          "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 34.8,
-      "stops": 28
+      "km": 30.5,
+      "stops": 24
     },
     {
-      "time": "10:00",
-      "until": "14:00",
-      "label": "midday reset",
-      "bikes": 837,
-      "fill": [
-        {
-          "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 9
-        },
-        {
-          "name": "어은동 카이스트 학사식당",
-          "q": 5
-        },
-        {
-          "name": "어은동 어은치안센터 입구",
-          "q": 5
-        },
-        {
-          "name": "둔산동 타임월드",
-          "q": 5
-        },
-        {
-          "name": "궁동 충남대학교 입구 버스정류장(황금상회)",
-          "q": 5
-        }
-      ],
-      "map": "route_10.html",
-      "km": 22.8,
-      "stops": 22
-    },
-    {
-      "time": "14:00",
+      "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 2040,
+      "bikes": 1497,
       "fill": [
         {
-          "name": "부사동 한화이글스파크",
-          "q": 30
+          "name": "산성동 한밭가든아파트 107동",
+          "q": 8
         },
         {
-          "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 17
+          "name": "봉명동 자이아파트 GS25 앞",
+          "q": 8
         },
         {
-          "name": "부사동 우체국",
-          "q": 11
+          "name": "만년동 한밭수목원(동원)",
+          "q": 8
         },
         {
-          "name": "봉명동 매드블럭",
-          "q": 11
+          "name": "월평동 선사유적지공용주차장",
+          "q": 7
         },
         {
-          "name": "봉명동 하이랜드 1차",
-          "q": 10
+          "name": "구성동 카이스트 창의학습관",
+          "q": 7
         }
       ],
-      "map": "route_14.html",
-      "km": 64.7,
-      "stops": 40
+      "map": "route_13.html",
+      "km": 42.7,
+      "stops": 34
     }
   ]
 }
