@@ -1,35 +1,20 @@
 {
-  "updated": "2026-07-17 20:48 UTC",
-  "snapshot": "2026-07-18 05:31:28",
+  "updated": "2026-07-18 20:42 UTC",
+  "snapshot": "2026-07-19 05:31:18",
   "daytype": "weekend",
   "stations": 1373,
-  "available": 2619,
-  "empty": 668,
-  "empty_pct": 48.7,
-  "to_add": 104,
+  "available": 2668,
+  "empty": 654,
+  "empty_pct": 47.6,
+  "to_add": 105,
   "short": [
     {
-      "name": "둔산동 큰마을네거리",
+      "name": "만년동 초원아파트105동 육교 밑",
       "have": 0,
       "target": 3
-    },
-    {
-      "name": "월평동 다모아아파트 상가",
-      "have": 0,
-      "target": 2
     },
     {
       "name": "봉명동 스카이뷰로드오피스텔 건너편",
-      "have": 1,
-      "target": 3
-    },
-    {
-      "name": "가양동 대주파크빌 이마트24",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "도안동 하나은행",
       "have": 0,
       "target": 2
     },
@@ -37,23 +22,43 @@
       "name": "대흥동 YWCA ",
       "have": 0,
       "target": 2
+    },
+    {
+      "name": "둔산동 큰마을네거리",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "월평동 월평역 1번출구",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "어은동 카이스트 학사식당",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "태평동 버드내초등학교",
-      "have": 37,
-      "target": 1
-    },
-    {
       "name": "홍도동 새마을금고 본점 건너편",
-      "have": 30,
+      "have": 34,
       "target": 1
     },
     {
-      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
-      "have": 25,
-      "target": 2
+      "name": "태평동 버드내초등학교",
+      "have": 29,
+      "target": 1
+    },
+    {
+      "name": "구성동 카이스트 다솜관",
+      "have": 24,
+      "target": 1
+    },
+    {
+      "name": "태평동 유등마을(112동)",
+      "have": 23,
+      "target": 1
     },
     {
       "name": "가장동 래미안 1단지 건너편(115동)",
@@ -61,39 +66,26 @@
       "target": 0
     },
     {
-      "name": "전민동 엑스포아파트 307동",
-      "have": 20,
-      "target": 1
-    },
-    {
-      "name": "궁동 다솔아파트 입구",
-      "have": 22,
-      "target": 3
+      "name": "목상동 다사랑아파트 104동",
+      "have": 23,
+      "target": 2
     }
   ],
   "route": {
     "stops": 17,
-    "km": 23.2,
-    "delivered": 28,
-    "needed": 28
+    "km": 17.1,
+    "delivered": 24,
+    "needed": 24
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 892,
+      "bikes": 822,
       "fill": [
         {
           "name": "둔산동 타임월드",
-          "q": 7
-        },
-        {
-          "name": "갈마동 갈마역 2번출구",
-          "q": 7
-        },
-        {
-          "name": "구성동 카이스트 서쪽 쪽문",
           "q": 7
         },
         {
@@ -102,29 +94,37 @@
         },
         {
           "name": "둔산동 정부청사역 4번출구",
+          "q": 7
+        },
+        {
+          "name": "갈마동 갈마역 2번출구",
+          "q": 6
+        },
+        {
+          "name": "봉명동 홈플러스 유성점",
           "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 30.5,
-      "stops": 24
+      "km": 21.2,
+      "stops": 25
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1497,
+      "bikes": 1398,
       "fill": [
         {
-          "name": "산성동 한밭가든아파트 107동",
+          "name": "노은동 대전월드컵경기장 ",
           "q": 8
         },
         {
-          "name": "봉명동 자이아파트 GS25 앞",
+          "name": "봉명동 매드블럭",
           "q": 8
         },
         {
-          "name": "만년동 한밭수목원(동원)",
+          "name": "궁동 버스정류장(유성구청 방향)",
           "q": 8
         },
         {
@@ -132,13 +132,13 @@
           "q": 7
         },
         {
-          "name": "구성동 카이스트 창의학습관",
+          "name": "산성동 한밭가든아파트 107동",
           "q": 7
         }
       ],
       "map": "route_13.html",
-      "km": 42.7,
-      "stops": 34
+      "km": 54.8,
+      "stops": 33
     }
   ]
 }
