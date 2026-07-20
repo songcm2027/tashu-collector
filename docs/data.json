@@ -1,88 +1,88 @@
 {
-  "updated": "2026-07-19 20:42 UTC",
-  "snapshot": "2026-07-20 05:31:30",
+  "updated": "2026-07-20 21:07 UTC",
+  "snapshot": "2026-07-21 06:01:38",
   "daytype": "weekday",
   "stations": 1373,
-  "available": 2543,
-  "empty": 684,
-  "empty_pct": 49.8,
-  "to_add": 224,
+  "available": 2489,
+  "empty": 643,
+  "empty_pct": 46.8,
+  "to_add": 367,
   "short": [
     {
       "name": "둔산동 샘머리아파트(209동)",
       "have": 0,
+      "target": 8
+    },
+    {
+      "name": "봉산동 송강프라자 대각선 건너편",
+      "have": 0,
+      "target": 6
+    },
+    {
+      "name": "선화동 대전하늘채스카이앤2차",
+      "have": 0,
+      "target": 6
+    },
+    {
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 1,
+      "target": 6
+    },
+    {
+      "name": "갈마동 갈마지구대",
+      "have": 0,
       "target": 4
     },
     {
-      "name": "법동 영진로얄아파트 입구",
+      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
       "have": 0,
-      "target": 3
-    },
-    {
-      "name": "월평동 사정어린이공원",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "효동 현대아파트 상가",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "상대동 목련아파트 2단지 입구",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "만년동 초원아파트105동 육교 밑",
-      "have": 1,
       "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 53,
-      "target": 1
-    },
-    {
-      "name": "홍도동 새마을금고 본점 건너편",
-      "have": 52,
-      "target": 2
-    },
-    {
-      "name": "어은동 한빛아파트(126동 건너편)",
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
       "have": 37,
-      "target": 2
-    },
-    {
-      "name": "태평동 태평오거리",
-      "have": 36,
-      "target": 2
-    },
-    {
-      "name": "오정동 한남육교 아래",
-      "have": 29,
-      "target": 1
+      "target": 6
     },
     {
       "name": "삼성동 한밭빌라",
       "have": 26,
+      "target": 2
+    },
+    {
+      "name": "중촌동 푸르지오(정문)",
+      "have": 24,
       "target": 1
+    },
+    {
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 26,
+      "target": 4
+    },
+    {
+      "name": "용두동 하늘채엘센트로",
+      "have": 23,
+      "target": 3
+    },
+    {
+      "name": "태평동 유등마을(112동)",
+      "have": 22,
+      "target": 3
     }
   ],
   "route": {
-    "stops": 18,
-    "km": 26.0,
-    "delivered": 34,
-    "needed": 34
+    "stops": 20,
+    "km": 31.3,
+    "delivered": 59,
+    "needed": 59
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1067,
+      "bikes": 1074,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -93,35 +93,31 @@
           "q": 8
         },
         {
+          "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
+          "q": 7
+        },
+        {
           "name": "둔산동 세이브존",
           "q": 7
         },
         {
           "name": "유천동 서대전역 후문 출구",
           "q": 7
-        },
-        {
-          "name": "정동 대전역(대한통운 건너편)",
-          "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 29.2,
-      "stops": 27
+      "km": 27.9,
+      "stops": 26
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 873,
+      "bikes": 764,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 9
-        },
-        {
-          "name": "어은동 어은치안센터 입구",
-          "q": 6
+          "q": 8
         },
         {
           "name": "둔산동 타임월드",
@@ -132,19 +128,23 @@
           "q": 5
         },
         {
+          "name": "어은동 어은치안센터 입구",
+          "q": 4
+        },
+        {
           "name": "어은동 카이스트 학사식당",
           "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 16.2,
-      "stops": 20
+      "km": 17.9,
+      "stops": 21
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 2035,
+      "bikes": 1898,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -155,11 +155,11 @@
           "q": 17
         },
         {
-          "name": "부사동 우체국",
+          "name": "봉명동 하이랜드 1차",
           "q": 11
         },
         {
-          "name": "봉명동 하이랜드 1차",
+          "name": "부사동 우체국",
           "q": 10
         },
         {
@@ -168,7 +168,7 @@
         }
       ],
       "map": "route_14.html",
-      "km": 62.9,
+      "km": 62.6,
       "stops": 37
     }
   ]
