@@ -1,99 +1,99 @@
 {
-  "updated": "2026-07-20 21:07 UTC",
-  "snapshot": "2026-07-21 06:01:38",
+  "updated": "2026-07-21 21:03 UTC",
+  "snapshot": "2026-07-22 05:46:47",
   "daytype": "weekday",
   "stations": 1373,
-  "available": 2489,
-  "empty": 643,
-  "empty_pct": 46.8,
-  "to_add": 367,
+  "available": 2646,
+  "empty": 664,
+  "empty_pct": 48.4,
+  "to_add": 163,
   "short": [
     {
       "name": "둔산동 샘머리아파트(209동)",
       "have": 0,
-      "target": 8
-    },
-    {
-      "name": "봉산동 송강프라자 대각선 건너편",
-      "have": 0,
-      "target": 6
-    },
-    {
-      "name": "선화동 대전하늘채스카이앤2차",
-      "have": 0,
-      "target": 6
-    },
-    {
-      "name": "둔산동 수정타운아파트 상가",
-      "have": 1,
-      "target": 6
-    },
-    {
-      "name": "갈마동 갈마지구대",
-      "have": 0,
       "target": 4
+    },
+    {
+      "name": "만년동 초원아파트105동 육교 밑",
+      "have": 0,
+      "target": 3
     },
     {
       "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
       "have": 0,
       "target": 3
+    },
+    {
+      "name": "만년동 기업은행",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "선화동 대전한신더휴리저브 1102동",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "천동 휴먼시아 입구(201동)",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 37,
-      "target": 6
-    },
-    {
-      "name": "삼성동 한밭빌라",
-      "have": 26,
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 44,
       "target": 2
     },
     {
-      "name": "중촌동 푸르지오(정문)",
-      "have": 24,
-      "target": 1
+      "name": "홍도동 새마을금고 본점 건너편",
+      "have": 32,
+      "target": 2
+    },
+    {
+      "name": "장대동 장대공원 내 놀이터 옆",
+      "have": 27,
+      "target": 2
     },
     {
       "name": "내동 맑은아침아파트 121동 입구",
-      "have": 26,
-      "target": 4
+      "have": 27,
+      "target": 2
     },
     {
-      "name": "용두동 하늘채엘센트로",
-      "have": 23,
-      "target": 3
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 25,
+      "target": 1
     },
     {
-      "name": "태평동 유등마을(112동)",
-      "have": 22,
-      "target": 3
+      "name": "월평동 다모아아파트 상가",
+      "have": 25,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 31.3,
-    "delivered": 59,
-    "needed": 59
+    "stops": 18,
+    "km": 22.5,
+    "delivered": 34,
+    "needed": 34
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1074,
+      "bikes": 1002,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
           "q": 20
         },
         {
-          "name": "궁동 충남대학교 학생회관",
-          "q": 8
+          "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
+          "q": 7
         },
         {
-          "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
+          "name": "궁동 충남대학교 학생회관",
           "q": 7
         },
         {
@@ -106,26 +106,18 @@
         }
       ],
       "map": "route_05.html",
-      "km": 27.9,
-      "stops": 26
+      "km": 28.5,
+      "stops": 27
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 764,
+      "bikes": 681,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
           "q": 8
-        },
-        {
-          "name": "둔산동 타임월드",
-          "q": 5
-        },
-        {
-          "name": "궁동 충남대학교 입구 버스정류장(황금상회)",
-          "q": 5
         },
         {
           "name": "어은동 어은치안센터 입구",
@@ -134,21 +126,29 @@
         {
           "name": "어은동 카이스트 학사식당",
           "q": 4
+        },
+        {
+          "name": "둔산동 타임월드",
+          "q": 4
+        },
+        {
+          "name": "궁동 충남대학교 입구 버스정류장(황금상회)",
+          "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 17.9,
+      "km": 15.4,
       "stops": 21
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1898,
+      "bikes": 1732,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 30
+          "q": 29
         },
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 62.6,
-      "stops": 37
+      "km": 56.9,
+      "stops": 36
     }
   ]
 }
