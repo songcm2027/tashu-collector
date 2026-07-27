@@ -1,119 +1,119 @@
 {
-  "updated": "2026-07-26 20:53 UTC",
-  "snapshot": "2026-07-27 05:47:10",
+  "updated": "2026-07-27 21:08 UTC",
+  "snapshot": "2026-07-28 06:02:13",
   "daytype": "weekday",
   "stations": 1375,
-  "available": 2759,
-  "empty": 628,
-  "empty_pct": 45.7,
-  "to_add": 191,
+  "available": 2786,
+  "empty": 656,
+  "empty_pct": 47.7,
+  "to_add": 347,
   "short": [
+    {
+      "name": "둔산동 샘머리아파트(209동)",
+      "have": 0,
+      "target": 8
+    },
+    {
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 1,
+      "target": 6
+    },
     {
       "name": "만년동 초원아파트105동 육교 밑",
       "have": 0,
-      "target": 3
-    },
-    {
-      "name": "둔산동 샘머리아파트(209동)",
-      "have": 1,
       "target": 4
-    },
-    {
-      "name": "만년동 기업은행",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "탄방동 대전 도산서원입구",
-      "have": 0,
-      "target": 2
     },
     {
       "name": "만년동 만년네거리 상록수아파트 104동",
       "have": 0,
-      "target": 2
+      "target": 4
     },
     {
-      "name": "석봉동 금강로하스엘크루아파트 104동",
+      "name": "천동 휴먼시아 입구(201동)",
       "have": 0,
-      "target": 2
+      "target": 4
+    },
+    {
+      "name": "송강동 한마을아파트(107동)",
+      "have": 0,
+      "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 56,
-      "target": 1
-    },
-    {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 34,
-      "target": 2
-    },
-    {
       "name": "전민동 엑스포아파트 307동",
-      "have": 29,
-      "target": 2
-    },
-    {
-      "name": "태평동 유등마을(112동)",
-      "have": 26,
-      "target": 2
+      "have": 36,
+      "target": 3
     },
     {
       "name": "중촌동 푸르지오(정문)",
-      "have": 22,
+      "have": 30,
       "target": 1
     },
     {
+      "name": "용두동 하늘채엘센트로",
+      "have": 27,
+      "target": 3
+    },
+    {
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 28,
+      "target": 4
+    },
+    {
       "name": "문평동 옥봉 신탄진물류센터",
-      "have": 19,
+      "have": 23,
       "target": 0
+    },
+    {
+      "name": "어은동 어은치안센터 입구",
+      "have": 24,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 18,
-    "km": 37.1,
-    "delivered": 32,
-    "needed": 32
+    "stops": 19,
+    "km": 32.5,
+    "delivered": 50,
+    "needed": 50
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 929,
+      "bikes": 950,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
-          "q": 20
-        },
-        {
-          "name": "궁동 충남대학교 학생회관",
-          "q": 7
+          "q": 19
         },
         {
           "name": "유천동 서대전역 후문 출구",
           "q": 7
         },
         {
-          "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
-          "q": 6
+          "name": "구성동 카이스트 나노종합기술원",
+          "q": 7
         },
         {
           "name": "정동 대전역(대한통운 건너편)",
           "q": 6
+        },
+        {
+          "name": "궁동 충남대학교 학생회관",
+          "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 32.9,
-      "stops": 27
+      "km": 32.5,
+      "stops": 28
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 731,
+      "bikes": 744,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -137,14 +137,14 @@
         }
       ],
       "map": "route_10.html",
-      "km": 14.3,
-      "stops": 21
+      "km": 10.7,
+      "stops": 18
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1817,
+      "bikes": 1854,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 56.7,
-      "stops": 39
+      "km": 53.2,
+      "stops": 37
     }
   ]
 }
