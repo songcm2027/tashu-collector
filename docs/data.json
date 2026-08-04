@@ -1,100 +1,92 @@
 {
-  "updated": "2026-08-03 21:02 UTC",
-  "snapshot": "2026-08-04 05:47:02",
+  "updated": "2026-08-04 21:09 UTC",
+  "snapshot": "2026-08-05 06:03:42",
   "daytype": "weekday",
   "stations": 1374,
-  "available": 3070,
-  "empty": 676,
-  "empty_pct": 49.2,
-  "to_add": 200,
+  "available": 3139,
+  "empty": 655,
+  "empty_pct": 47.7,
+  "to_add": 335,
   "short": [
     {
-      "name": "자양동 우송대건너편",
-      "have": 0,
-      "target": 5
-    },
-    {
-      "name": "노은동 열매마을 9단지(910동)",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "용문동 롯데백화점 뒤 우정어린이공원",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "선화동 대전한신더휴리저브 1102동",
-      "have": 0,
-      "target": 2
+      "name": "둔산동 샘머리아파트(209동)",
+      "have": 1,
+      "target": 7
     },
     {
       "name": "신흥동 SK뷰(106동)",
       "have": 0,
-      "target": 2
+      "target": 4
     },
     {
-      "name": "송강동 계룡한솔아파트(201동)",
+      "name": "천동 휴먼시아 입구(201동)",
+      "have": 1,
+      "target": 4
+    },
+    {
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 3,
+      "target": 6
+    },
+    {
+      "name": "둔산동 정부청사역 4번출구",
       "have": 0,
-      "target": 2
+      "target": 3
+    },
+    {
+      "name": "반석동 외삼네거리 603동",
+      "have": 0,
+      "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "용두동 하늘채엘센트로",
-      "have": 48,
-      "target": 1
-    },
-    {
       "name": "오정동 한남육교 아래",
-      "have": 43,
+      "have": 41,
       "target": 1
     },
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 41,
-      "target": 2
+      "name": "용두동 하늘채엘센트로",
+      "have": 42,
+      "target": 3
     },
     {
       "name": "문평동 옥봉 신탄진물류센터",
-      "have": 34,
+      "have": 36,
       "target": 0
     },
     {
-      "name": "목상동 상록수아파트 정류장(101동)",
-      "have": 34,
+      "name": "중리동 한남대학교 후문",
+      "have": 35,
+      "target": 2
+    },
+    {
+      "name": "오정동 오정농수산물시장(동대전농협)",
+      "have": 29,
       "target": 1
     },
     {
-      "name": "읍내동 회덕유래비 정류장",
-      "have": 30,
-      "target": 0
+      "name": "서구 만년동 10(만년고 뒤편)",
+      "have": 31,
+      "target": 3
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 42.3,
-    "delivered": 33,
-    "needed": 33
+    "stops": 18,
+    "km": 33.4,
+    "delivered": 44,
+    "needed": 44
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1040,
+      "bikes": 935,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
           "q": 19
-        },
-        {
-          "name": "유천동 서대전역 후문 출구",
-          "q": 7
-        },
-        {
-          "name": "구성동 카이스트 나노종합기술원",
-          "q": 7
         },
         {
           "name": "어은동 유성구청",
@@ -103,21 +95,29 @@
         {
           "name": "구성동 카이스트 서쪽 쪽문",
           "q": 6
+        },
+        {
+          "name": "궁동 충남대학교 학생회관",
+          "q": 6
+        },
+        {
+          "name": "구성동 카이스트 오리연못",
+          "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 31.6,
-      "stops": 29
+      "km": 33.9,
+      "stops": 28
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 748,
+      "bikes": 688,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 8
+          "q": 9
         },
         {
           "name": "어은동 어은치안센터 입구",
@@ -132,23 +132,23 @@
           "q": 4
         },
         {
-          "name": "궁동 온천교(충남대학교 방면)",
+          "name": "둔산동 샘머리아파트(209동)",
           "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 14.4,
-      "stops": 19
+      "km": 14.9,
+      "stops": 20
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1803,
+      "bikes": 1668,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 30
+          "q": 29
         },
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 49.9,
-      "stops": 34
+      "km": 48.7,
+      "stops": 33
     }
   ]
 }
