@@ -1,88 +1,88 @@
 {
-  "updated": "2026-08-05 21:04 UTC",
-  "snapshot": "2026-08-06 05:47:13",
+  "updated": "2026-08-07 00:55 UTC",
+  "snapshot": "2026-08-07 09:46:58",
   "daytype": "weekday",
   "stations": 1374,
-  "available": 3232,
-  "empty": 616,
-  "empty_pct": 44.8,
-  "to_add": 179,
+  "available": 3144,
+  "empty": 634,
+  "empty_pct": 46.1,
+  "to_add": 636,
   "short": [
     {
-      "name": "삼성동 한밭자이 정류장(104동)",
+      "name": "어은동 한빛아파트(126동 건너편)",
       "have": 0,
-      "target": 2
+      "target": 14
     },
     {
-      "name": "갈마동 상수도사업본부(갈마중학교입구 방면)정류장",
+      "name": "어은동 어은치안센터 입구",
       "have": 0,
-      "target": 2
+      "target": 12
     },
     {
-      "name": "석교동 스마일약국",
+      "name": "구성동 카이스트 다솜관",
       "have": 0,
-      "target": 2
+      "target": 12
     },
     {
-      "name": "둔산동 둥지아파트(107동)",
+      "name": "구성동 카이스트 서쪽 쪽문",
       "have": 0,
-      "target": 2
+      "target": 9
     },
     {
-      "name": "용운동 족발시대 인근",
+      "name": "어은동 한빛아파트(126동 앞)",
       "have": 0,
-      "target": 2
+      "target": 8
     },
     {
-      "name": "월평동 둔산테크노(월평주공3단지 뒤편)",
-      "have": 0,
-      "target": 2
+      "name": "궁동 다솔아파트 입구",
+      "have": 2,
+      "target": 8
     }
   ],
   "surplus": [
     {
+      "name": "둔산동 정부청사 입구(남문)",
+      "have": 74,
+      "target": 11
+    },
+    {
       "name": "오정동 한남육교 아래",
-      "have": 51,
+      "have": 48,
+      "target": 1
+    },
+    {
+      "name": "구성동 카이스트 정보전자동 (1410)",
+      "have": 48,
       "target": 1
     },
     {
       "name": "중리동 한남대학교 후문",
-      "have": 37,
-      "target": 3
+      "have": 36,
+      "target": 2
     },
     {
-      "name": "오정동 오정농수산물시장(동대전농협)",
-      "have": 33,
-      "target": 0
-    },
-    {
-      "name": "용두동 하늘채엘센트로",
-      "have": 32,
+      "name": "오정동 대덕구청",
+      "have": 34,
       "target": 1
     },
     {
-      "name": "만년동 행정복지센터",
-      "have": 33,
-      "target": 3
-    },
-    {
-      "name": "서구 만년동 10(만년고 뒤편)",
-      "have": 28,
+      "name": "오정동 통매바위어린이공원",
+      "have": 26,
       "target": 1
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 20.7,
-    "delivered": 30,
-    "needed": 30
+    "stops": 21,
+    "km": 20.9,
+    "delivered": 102,
+    "needed": 102
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 887,
+      "bikes": 916,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -101,19 +101,19 @@
           "q": 6
         },
         {
-          "name": "구성동 카이스트 오리연못",
+          "name": "둔산동 세이브존",
           "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 32.8,
+      "km": 33.4,
       "stops": 27
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 689,
+      "bikes": 695,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -124,27 +124,27 @@
           "q": 7
         },
         {
-          "name": "둔산동 타임월드",
-          "q": 5
-        },
-        {
           "name": "어은동 카이스트 학사식당",
           "q": 4
         },
         {
           "name": "둔산동 샘머리아파트(209동)",
           "q": 4
+        },
+        {
+          "name": "둔산동 타임월드",
+          "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 15.7,
-      "stops": 20
+      "km": 17.9,
+      "stops": 19
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1696,
+      "bikes": 1698,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -163,13 +163,13 @@
           "q": 10
         },
         {
-          "name": "둔산동 샘머리아파트(209동)",
+          "name": "봉명동 매드블럭",
           "q": 8
         }
       ],
       "map": "route_14.html",
-      "km": 43.2,
-      "stops": 32
+      "km": 47.4,
+      "stops": 34
     }
   ]
 }
