@@ -1,27 +1,22 @@
 {
-  "updated": "2026-08-07 20:37 UTC",
-  "snapshot": "2026-08-08 05:32:52",
+  "updated": "2026-08-08 20:25 UTC",
+  "snapshot": "2026-08-09 05:17:30",
   "daytype": "weekend",
   "stations": 1374,
-  "available": 3304,
-  "empty": 662,
-  "empty_pct": 48.2,
-  "to_add": 188,
+  "available": 3398,
+  "empty": 644,
+  "empty_pct": 46.9,
+  "to_add": 110,
   "short": [
     {
-      "name": "봉명동 스카이뷰로드오피스텔 건너편",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "가양동 드림팰리스5차",
+      "name": "만년동 초원아파트105동 육교 밑",
       "have": 0,
       "target": 2
     },
     {
-      "name": "탄방동 e편한세상(102동)",
-      "have": 1,
-      "target": 3
+      "name": "산성동 행정복지센터 건너편",
+      "have": 0,
+      "target": 2
     },
     {
       "name": "죽동 충남대학교 서문네거리",
@@ -29,60 +24,65 @@
       "target": 2
     },
     {
-      "name": "괴정동 경성스포츠",
+      "name": "가양동 드림팰리스5차",
       "have": 0,
       "target": 2
     },
     {
-      "name": "만년동 초원아파트105동 육교 밑",
-      "have": 1,
-      "target": 3
+      "name": "가양동 우송대 서문 건너편",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "월평동 갈마역 3번출구",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "오정동 한남육교 아래",
-      "have": 52,
-      "target": 0
-    },
-    {
-      "name": "용두동 하늘채엘센트로",
-      "have": 37,
+      "name": "중리동 한남대학교 후문",
+      "have": 44,
       "target": 2
     },
     {
-      "name": "오정동 대덕구청",
-      "have": 29,
-      "target": 0
+      "name": "홍도동 새마을금고 본점 건너편",
+      "have": 39,
+      "target": 2
     },
     {
       "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 30,
+      "have": 36,
       "target": 1
     },
     {
       "name": "태평동 유등마을(112동)",
-      "have": 31,
+      "have": 33,
       "target": 2
     },
     {
-      "name": "오정동 성진주택 ",
+      "name": "오정동 국민연금공단 북대전지사 정류장",
       "have": 30,
       "target": 1
+    },
+    {
+      "name": "오정동 성진주택 ",
+      "have": 28,
+      "target": 0
     }
   ],
   "route": {
     "stops": 17,
-    "km": 23.7,
-    "delivered": 31,
-    "needed": 31
+    "km": 38.3,
+    "delivered": 25,
+    "needed": 25
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 978,
+      "bikes": 1010,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -97,28 +97,24 @@
           "q": 6
         },
         {
-          "name": "월평동 백합네거리",
+          "name": "둔산동 현대아이텔(시청역 6번출구)",
           "q": 6
         },
         {
-          "name": "월평동 미래빌딩",
+          "name": "월평동 백합네거리",
           "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 19.9,
+      "km": 20.1,
       "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1535,
+      "bikes": 1558,
       "fill": [
-        {
-          "name": "부사동 한화이글스파크",
-          "q": 8
-        },
         {
           "name": "월평동 선사유적지공용주차장",
           "q": 7
@@ -128,17 +124,21 @@
           "q": 7
         },
         {
-          "name": "궁동 버스정류장(유성구청 방향)",
+          "name": "부사동 한화이글스파크",
           "q": 7
         },
         {
-          "name": "봉명동 하이랜드 1차",
+          "name": "구성동 카이스트 창의학습관",
+          "q": 7
+        },
+        {
+          "name": "궁동 버스정류장(유성구청 방향)",
           "q": 7
         }
       ],
       "map": "route_13.html",
-      "km": 39.5,
-      "stops": 30
+      "km": 38.6,
+      "stops": 31
     }
   ]
 }
