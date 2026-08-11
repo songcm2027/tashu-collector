@@ -1,35 +1,30 @@
 {
-  "updated": "2026-08-10 20:38 UTC",
-  "snapshot": "2026-08-11 05:32:25",
+  "updated": "2026-08-11 20:41 UTC",
+  "snapshot": "2026-08-12 05:32:28",
   "daytype": "weekday",
   "stations": 1374,
-  "available": 3409,
-  "empty": 645,
-  "empty_pct": 46.9,
-  "to_add": 185,
+  "available": 3406,
+  "empty": 670,
+  "empty_pct": 48.8,
+  "to_add": 202,
   "short": [
     {
-      "name": "만년동 기업은행",
+      "name": "만년동 초원아파트105동 육교 밑",
       "have": 0,
       "target": 2
     },
     {
-      "name": "삼성동 한밭자이 정류장(104동)",
+      "name": "둔산동 둔산청솔아파트(9동)",
       "have": 0,
       "target": 2
     },
     {
-      "name": "용문동 롯데백화점 뒤 우정어린이공원",
+      "name": "둔산동 시애틀 공원",
       "have": 0,
       "target": 2
     },
     {
-      "name": "갈마동 상수도사업본부(갈마중학교입구 방면)정류장",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "봉산동 송강프라자 대각선 건너편",
+      "name": "탄방동 한가람아파트",
       "have": 0,
       "target": 2
     },
@@ -37,43 +32,48 @@
       "name": "가수원 은아아파트 5단지",
       "have": 0,
       "target": 2
+    },
+    {
+      "name": "신흥동 SK뷰(106동)",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "오정동 한남육교 아래",
-      "have": 35,
+      "name": "홍도동 새마을금고 본점 건너편",
+      "have": 53,
+      "target": 2
+    },
+    {
+      "name": "전민동 엑스포아파트 4단지(407동)",
+      "have": 45,
       "target": 1
     },
     {
-      "name": "홍도동 새마을금고 본점 건너편",
-      "have": 35,
+      "name": "오정동 한남육교 아래",
+      "have": 44,
+      "target": 1
+    },
+    {
+      "name": "태평동 유등마을(112동)",
+      "have": 40,
+      "target": 2
+    },
+    {
+      "name": "도마동 농도원네거리",
+      "have": 39,
       "target": 2
     },
     {
       "name": "복수동 초록마을아파트 3단지",
-      "have": 35,
-      "target": 2
-    },
-    {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 34,
-      "target": 2
-    },
-    {
-      "name": "법동 대전지방국세청 서측",
-      "have": 32,
-      "target": 0
-    },
-    {
-      "name": "중리동 한밭캠퍼스빌오피스텔",
-      "have": 34,
+      "have": 38,
       "target": 2
     }
   ],
   "route": {
     "stops": 17,
-    "km": 34.4,
+    "km": 23.5,
     "delivered": 30,
     "needed": 30
   },
@@ -82,7 +82,7 @@
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 926,
+      "bikes": 943,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,14 +106,14 @@
         }
       ],
       "map": "route_05.html",
-      "km": 33.9,
-      "stops": 27
+      "km": 30.4,
+      "stops": 28
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 727,
+      "bikes": 744,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -121,30 +121,30 @@
         },
         {
           "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 8
+          "q": 9
         },
         {
           "name": "어은동 카이스트 학사식당",
-          "q": 5
-        },
-        {
-          "name": "둔산동 타임월드",
           "q": 4
         },
         {
           "name": "둔산동 샘머리아파트(209동)",
           "q": 4
+        },
+        {
+          "name": "둔산동 타임월드",
+          "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 15.0,
+      "km": 15.7,
       "stops": 20
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1761,
+      "bikes": 1793,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 45.7,
-      "stops": 31
+      "km": 46.4,
+      "stops": 32
     }
   ]
 }
