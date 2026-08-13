@@ -1,40 +1,40 @@
 {
-  "updated": "2026-08-12 20:41 UTC",
-  "snapshot": "2026-08-13 05:32:57",
+  "updated": "2026-08-13 20:40 UTC",
+  "snapshot": "2026-08-14 05:32:39",
   "daytype": "weekday",
-  "stations": 1374,
-  "available": 3410,
-  "empty": 639,
-  "empty_pct": 46.5,
-  "to_add": 178,
+  "stations": 1372,
+  "available": 3366,
+  "empty": 630,
+  "empty_pct": 45.9,
+  "to_add": 200,
   "short": [
     {
-      "name": "도룡동 스마트시티5단지",
+      "name": "둔산동 샘머리아파트(209동)",
+      "have": 0,
+      "target": 5
+    },
+    {
+      "name": "궁동 다솔아파트 입구",
+      "have": 0,
+      "target": 4
+    },
+    {
+      "name": "봉명동 스카이뷰로드오피스텔 건너편",
       "have": 0,
       "target": 2
     },
     {
-      "name": "선화동 해모로더센트라아파트 107동",
+      "name": "선화동 대전한신더휴리저브 1102동",
       "have": 0,
       "target": 2
     },
     {
-      "name": "탄방동 둔산자이아이파크 104동",
+      "name": "괴정동 경성스포츠",
       "have": 0,
       "target": 2
     },
     {
-      "name": "인동 한국전기안전공사",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "중앙로역 3번출구",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "용문역 5번출구",
+      "name": "문화동 훼미리맨션(A동)",
       "have": 0,
       "target": 2
     }
@@ -42,51 +42,51 @@
   "surplus": [
     {
       "name": "홍도동 새마을금고 본점 건너편",
-      "have": 53,
-      "target": 2
-    },
-    {
-      "name": "복수동 초록마을아파트 3단지",
-      "have": 50,
-      "target": 2
-    },
-    {
-      "name": "전민동 엑스포아파트 307동",
-      "have": 42,
+      "have": 48,
       "target": 2
     },
     {
       "name": "오정동 한남육교 아래",
-      "have": 40,
+      "have": 41,
       "target": 1
     },
     {
-      "name": "법동 대전지방국세청 서측",
-      "have": 38,
-      "target": 0
+      "name": "복수동 초록마을아파트 3단지",
+      "have": 41,
+      "target": 2
     },
     {
       "name": "변동 향우네거리",
-      "have": 35,
+      "have": 41,
       "target": 3
+    },
+    {
+      "name": "전민동 엑스포아파트 307동",
+      "have": 39,
+      "target": 2
+    },
+    {
+      "name": "법동 대전지방국세청 서측",
+      "have": 32,
+      "target": 0
     }
   ],
   "route": {
     "stops": 17,
-    "km": 29.1,
-    "delivered": 26,
-    "needed": 26
+    "km": 26.1,
+    "delivered": 35,
+    "needed": 35
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 968,
+      "bikes": 980,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
-          "q": 19
+          "q": 18
         },
         {
           "name": "유천동 서대전역 후문 출구",
@@ -97,23 +97,23 @@
           "q": 7
         },
         {
-          "name": "궁동 충남대학교 학생회관",
+          "name": "어은동 유성구청",
           "q": 6
         },
         {
-          "name": "어은동 유성구청",
+          "name": "둔산동 세이브존",
           "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 32.6,
-      "stops": 27
+      "km": 38.9,
+      "stops": 26
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 753,
+      "bikes": 765,
       "fill": [
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -128,23 +128,23 @@
           "q": 6
         },
         {
-          "name": "둔산동 샘머리아파트(209동)",
-          "q": 4
+          "name": "궁동 온천교(충남대학교 방면)",
+          "q": 5
         },
         {
-          "name": "둔산동 타임월드",
+          "name": "둔산동 샘머리아파트(209동)",
           "q": 4
         }
       ],
       "map": "route_10.html",
-      "km": 14.8,
+      "km": 14.4,
       "stops": 19
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1826,
+      "bikes": 1849,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -159,17 +159,17 @@
           "q": 12
         },
         {
-          "name": "봉명동 매드블럭",
+          "name": "어은동 한빛아파트(126동 건너편)",
           "q": 10
         },
         {
-          "name": "어은동 한빛아파트(126동 건너편)",
-          "q": 10
+          "name": "봉명동 매드블럭",
+          "q": 9
         }
       ],
       "map": "route_14.html",
-      "km": 47.7,
-      "stops": 33
+      "km": 48.7,
+      "stops": 30
     }
   ]
 }
