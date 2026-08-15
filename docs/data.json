@@ -1,32 +1,17 @@
 {
-  "updated": "2026-08-14 20:28 UTC",
-  "snapshot": "2026-08-15 05:17:17",
+  "updated": "2026-08-15 20:19 UTC",
+  "snapshot": "2026-08-16 05:02:48",
   "daytype": "weekend",
   "stations": 1372,
-  "available": 3411,
-  "empty": 627,
-  "empty_pct": 45.7,
-  "to_add": 99,
+  "available": 3508,
+  "empty": 589,
+  "empty_pct": 42.9,
+  "to_add": 94,
   "short": [
     {
-      "name": "월평동 월평역 1번출구",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "태평동 시영아파트 4동",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "장대동 드림월드아파트 102동(유성대로 방향)",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "상대동 도안 5단지 트리풀시티(509동)",
-      "have": 0,
-      "target": 2
+      "name": "둔산동 샘머리아파트(209동)",
+      "have": 1,
+      "target": 3
     },
     {
       "name": "갈마동 갈마아파트 한마음동산",
@@ -34,55 +19,70 @@
       "target": 2
     },
     {
-      "name": "대흥동 YWCA ",
+      "name": "가양동 드림팰리스5차",
       "have": 0,
       "target": 2
+    },
+    {
+      "name": "둔산동 큰마을네거리",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "둔산동 세이브존",
+      "have": 0,
+      "target": 1
+    },
+    {
+      "name": "탄방동 공무원연금공단 대전지부",
+      "have": 0,
+      "target": 1
     }
   ],
   "surplus": [
     {
       "name": "홍도동 새마을금고 본점 건너편",
-      "have": 59,
+      "have": 62,
       "target": 1
     },
     {
       "name": "복수동 초록마을아파트 3단지",
-      "have": 47,
+      "have": 53,
+      "target": 1
+    },
+    {
+      "name": "중리동 한남대학교 후문",
+      "have": 45,
+      "target": 2
+    },
+    {
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 43,
       "target": 1
     },
     {
       "name": "오정동 한남육교 아래",
-      "have": 43,
+      "have": 40,
       "target": 0
     },
     {
-      "name": "중리동 한남대학교 후문",
-      "have": 38,
-      "target": 2
-    },
-    {
-      "name": "오정동 오정농수산물 도매시장",
-      "have": 36,
+      "name": "전민동 행정복지센터 건너편",
+      "have": 39,
       "target": 1
-    },
-    {
-      "name": "오정동 통매바위어린이공원",
-      "have": 32,
-      "target": 0
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 28.0,
-    "delivered": 21,
-    "needed": 21
+    "stops": 16,
+    "km": 26.5,
+    "delivered": 19,
+    "needed": 19
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 895,
+      "bikes": 757,
       "fill": [
         {
           "name": "둔산동 타임월드",
@@ -97,23 +97,23 @@
           "q": 6
         },
         {
-          "name": "구성동 카이스트 창의학습관",
+          "name": "구성동 카이스트 서쪽 쪽문",
           "q": 6
         },
         {
-          "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 6
+          "name": "월평동 백합네거리",
+          "q": 5
         }
       ],
       "map": "route_05.html",
-      "km": 21.0,
+      "km": 19.5,
       "stops": 22
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1407,
+      "bikes": 1238,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -124,21 +124,21 @@
           "q": 7
         },
         {
+          "name": "봉명동 매드블럭",
+          "q": 7
+        },
+        {
           "name": "월평동 선사유적지공용주차장",
           "q": 7
         },
         {
           "name": "궁동 버스정류장(유성구청 방향)",
           "q": 6
-        },
-        {
-          "name": "만년동 한밭수목원(동원)",
-          "q": 6
         }
       ],
       "map": "route_13.html",
-      "km": 38.7,
-      "stops": 29
+      "km": 33.3,
+      "stops": 28
     }
   ]
 }
