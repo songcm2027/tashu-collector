@@ -1,59 +1,54 @@
 {
-  "updated": "2026-08-29 02:44 UTC",
-  "snapshot": "2026-08-29 11:32:45",
+  "updated": "2026-08-29 22:15 UTC",
+  "snapshot": "2026-08-30 07:03:01",
   "daytype": "weekend",
   "stations": 1373,
-  "available": 3013,
-  "empty": 665,
-  "empty_pct": 48.4,
-  "to_add": 687,
+  "available": 3141,
+  "empty": 605,
+  "empty_pct": 44.1,
+  "to_add": 308,
   "short": [
     {
-      "name": "월평동 다모아아파트 상가",
-      "have": 0,
-      "target": 8
+      "name": "월평1동 행정복지센터 옆",
+      "have": 1,
+      "target": 4
     },
     {
-      "name": "구성동 카이스트 다솜관",
+      "name": "상대동 아이파크시티 1단지 102동 앞",
       "have": 0,
-      "target": 7
+      "target": 3
     },
     {
-      "name": "만년동 행정복지센터",
+      "name": "궁동 유성문화원",
       "have": 0,
-      "target": 6
+      "target": 3
     },
     {
-      "name": "태평동 유등마을(112동)",
+      "name": "장대동 동자산어린이공원",
       "have": 0,
-      "target": 6
+      "target": 3
     },
     {
-      "name": "둔산동 세이브존",
-      "have": 0,
-      "target": 5
+      "name": "만년동 한밭수목원(동원)",
+      "have": 1,
+      "target": 4
     },
     {
-      "name": "용문동 리베라아이누리 1단지(101동)",
-      "have": 2,
-      "target": 6
+      "name": "도룡동 스마트시티5단지",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "오정동 오정농수산물 도매시장",
-      "have": 54,
-      "target": 2
-    },
-    {
-      "name": "구성동 카이스트 창의학습관",
-      "have": 48,
-      "target": 1
-    },
-    {
       "name": "전민동 엑스포아파트 307동",
-      "have": 46,
-      "target": 2
+      "have": 58,
+      "target": 3
+    },
+    {
+      "name": "오정동 오정농수산물 도매시장",
+      "have": 53,
+      "target": 1
     },
     {
       "name": "오정동 한남육교 아래",
@@ -61,28 +56,33 @@
       "target": 2
     },
     {
-      "name": "구성동 카이스트 정보전자동 (1410)",
-      "have": 40,
-      "target": 3
+      "name": "읍내동 회덕유래비 정류장",
+      "have": 37,
+      "target": 1
     },
     {
-      "name": "봉산동 송강프라자 대각선 건너편",
-      "have": 35,
-      "target": 2
+      "name": "관평동 대덕비즈센터 남문 맞은편",
+      "have": 34,
+      "target": 0
+    },
+    {
+      "name": "구성동 카이스트 창의학습관",
+      "have": 32,
+      "target": 1
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 19.2,
-    "delivered": 69,
-    "needed": 69
+    "stops": 18,
+    "km": 34.9,
+    "delivered": 35,
+    "needed": 35
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 804,
+      "bikes": 807,
       "fill": [
         {
           "name": "둔산동 현대아이텔(시청역 6번출구)",
@@ -101,20 +101,24 @@
           "q": 6
         },
         {
-          "name": "궁동 온천교(충남대학교 방면)",
+          "name": "둔산동 하이마트",
           "q": 5
         }
       ],
       "map": "route_05.html",
-      "km": 22.1,
-      "stops": 22
+      "km": 23.4,
+      "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1317,
+      "bikes": 1352,
       "fill": [
+        {
+          "name": "부사동 한화이글스파크",
+          "q": 8
+        },
         {
           "name": "봉명동 매드블럭",
           "q": 8
@@ -124,21 +128,17 @@
           "q": 8
         },
         {
-          "name": "부사동 한화이글스파크",
-          "q": 7
-        },
-        {
           "name": "월평동 선사유적지공용주차장",
           "q": 7
         },
         {
           "name": "부사동 부사 119안전센터",
-          "q": 7
+          "q": 6
         }
       ],
       "map": "route_13.html",
-      "km": 35.8,
-      "stops": 29
+      "km": 38.8,
+      "stops": 28
     }
   ]
 }
