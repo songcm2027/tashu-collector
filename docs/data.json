@@ -1,22 +1,17 @@
 {
-  "updated": "2026-09-14 23:00 UTC",
-  "snapshot": "2026-09-15 06:45:35",
+  "updated": "2026-09-15 22:44 UTC",
+  "snapshot": "2026-09-16 06:08:41",
   "daytype": "weekday",
-  "stations": 1373,
-  "available": 2735,
-  "empty": 618,
-  "empty_pct": 45.0,
-  "to_add": 474,
+  "stations": 1374,
+  "available": 2915,
+  "empty": 628,
+  "empty_pct": 45.7,
+  "to_add": 400,
   "short": [
     {
       "name": "둔산동 샘머리아파트(209동)",
-      "have": 1,
-      "target": 7
-    },
-    {
-      "name": "자양동 우송대건너편",
       "have": 0,
-      "target": 5
+      "target": 6
     },
     {
       "name": "둔산동 국화아파트(501동)",
@@ -24,7 +19,7 @@
       "target": 4
     },
     {
-      "name": "신흥동 SK뷰(106동)",
+      "name": "상대동 도안 5단지 트리풀시티(509동)",
       "have": 0,
       "target": 4
     },
@@ -34,55 +29,60 @@
       "target": 4
     },
     {
-      "name": "만년동 초원아파트105동 육교 밑",
-      "have": 0,
+      "name": "태평동 쌍용예가",
+      "have": 1,
+      "target": 5
+    },
+    {
+      "name": "신흥동 SK뷰(106동)",
+      "have": 1,
       "target": 4
     }
   ],
   "surplus": [
     {
-      "name": "태평동 동양파라곤 302동",
+      "name": "태평동 유등마을(112동)",
       "have": 38,
+      "target": 4
+    },
+    {
+      "name": "중촌동 중촌시민공원",
+      "have": 28,
+      "target": 2
+    },
+    {
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 28,
+      "target": 3
+    },
+    {
+      "name": "문화동 주공3단지아파트(302동)",
+      "have": 27,
       "target": 3
     },
     {
       "name": "전민동 엑스포아파트 5단지 상가",
-      "have": 29,
+      "have": 26,
       "target": 2
     },
     {
-      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
-      "have": 26,
-      "target": 3
-    },
-    {
-      "name": "태평동 유등마을(112동)",
-      "have": 25,
-      "target": 4
-    },
-    {
-      "name": "법동 대전지방국세청 서측",
-      "have": 20,
+      "name": "사정동 성산마을110동(김밥친구)",
+      "have": 21,
       "target": 1
-    },
-    {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 22,
-      "target": 3
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 30.1,
-    "delivered": 56,
-    "needed": 56
+    "stops": 19,
+    "km": 25.9,
+    "delivered": 52,
+    "needed": 52
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1034,
+      "bikes": 1031,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1818,
+      "bikes": 1807,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
