@@ -1,99 +1,99 @@
 {
-  "updated": "2026-09-18 22:16 UTC",
-  "snapshot": "2026-09-19 05:45:13",
+  "updated": "2026-09-19 22:08 UTC",
+  "snapshot": "2026-09-20 05:24:40",
   "daytype": "weekend",
   "stations": 1374,
-  "available": 2911,
-  "empty": 633,
-  "empty_pct": 46.1,
-  "to_add": 146,
+  "available": 2958,
+  "empty": 641,
+  "empty_pct": 46.7,
+  "to_add": 170,
   "short": [
     {
-      "name": "둔산동 샘머리아파트(209동)",
+      "name": "자양동 우송대건너편",
       "have": 0,
       "target": 4
     },
     {
-      "name": "궁동 다솔아파트 입구",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "가양동 우송대 서문 건너편",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "만년동 만년네거리 상록수아파트 104동",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "대흥동 YWCA ",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
+      "name": "궁동 버스정류장(유성구청 방향)",
       "have": 1,
-      "target": 3
+      "target": 4
+    },
+    {
+      "name": "월평동 한아름아파트(108동)",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "도안동 하나은행",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "둔산동 큰마을네거리",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "둔산동 둔산청솔아파트(9동)",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "태평동 유등마을(112동)",
-      "have": 40,
-      "target": 2
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 50,
+      "target": 1
     },
     {
       "name": "전민동 엑스포아파트 307동",
-      "have": 25,
+      "have": 32,
       "target": 1
     },
     {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 25,
+      "name": "전민동 엑스포아파트 5단지 상가",
+      "have": 30,
+      "target": 1
+    },
+    {
+      "name": "태평동 유등마을(112동)",
+      "have": 30,
       "target": 2
     },
     {
-      "name": "사정동 성산마을110동(김밥친구)",
-      "have": 22,
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 24,
       "target": 1
     },
     {
-      "name": "도안동 도안 17단지 계룡리슈빌(1710동)",
-      "have": 22,
-      "target": 1
-    },
-    {
-      "name": "월평동 대전일보사 앞",
-      "have": 21,
-      "target": 1
+      "name": "오정동 한남육교 아래",
+      "have": 20,
+      "target": 0
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 18.0,
-    "delivered": 29,
-    "needed": 29
+    "stops": 18,
+    "km": 27.8,
+    "delivered": 33,
+    "needed": 33
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 911,
+      "bikes": 887,
       "fill": [
-        {
-          "name": "둔산동 타임월드",
-          "q": 7
-        },
         {
           "name": "둔산동 하이마트",
           "q": 6
         },
         {
           "name": "둔산동 현대아이텔(시청역 6번출구)",
+          "q": 6
+        },
+        {
+          "name": "둔산동 타임월드",
           "q": 6
         },
         {
@@ -106,14 +106,14 @@
         }
       ],
       "map": "route_05.html",
-      "km": 22.7,
+      "km": 24.8,
       "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1473,
+      "bikes": 1463,
       "fill": [
         {
           "name": "봉명동 매드블럭",
@@ -137,8 +137,8 @@
         }
       ],
       "map": "route_13.html",
-      "km": 43.0,
-      "stops": 28
+      "km": 39.4,
+      "stops": 29
     }
   ]
 }
