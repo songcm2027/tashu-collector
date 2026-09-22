@@ -1,27 +1,22 @@
 {
-  "updated": "2026-09-21 23:04 UTC",
-  "snapshot": "2026-09-22 06:54:58",
+  "updated": "2026-09-22 22:45 UTC",
+  "snapshot": "2026-09-23 06:10:08",
   "daytype": "weekday",
-  "stations": 1374,
-  "available": 2821,
-  "empty": 624,
-  "empty_pct": 45.4,
-  "to_add": 452,
+  "stations": 1377,
+  "available": 2902,
+  "empty": 593,
+  "empty_pct": 43.1,
+  "to_add": 390,
   "short": [
     {
-      "name": "둔산동 샘머리아파트(209동)",
-      "have": 0,
-      "target": 6
-    },
-    {
-      "name": "궁동 유성문화원",
+      "name": "자양동 우송대건너편",
       "have": 0,
       "target": 5
     },
     {
-      "name": "둔산동 국화아파트(501동)",
+      "name": "태평동 쌍용예가",
       "have": 0,
-      "target": 4
+      "target": 5
     },
     {
       "name": "신흥동 SK뷰(106동)",
@@ -29,60 +24,65 @@
       "target": 4
     },
     {
-      "name": "천동 휴먼시아 입구(201동)",
-      "have": 0,
+      "name": "월평동 둔산테크노(월평주공3단지 뒤편)",
+      "have": 1,
       "target": 4
     },
     {
-      "name": "상대동 도안 5단지 트리풀시티(509동)",
-      "have": 0,
+      "name": "천동 휴먼시아 입구(201동)",
+      "have": 1,
       "target": 4
+    },
+    {
+      "name": "신일동 대덕산업단지 BRT정류장",
+      "have": 0,
+      "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "월평역 이마트 트레이더스",
-      "have": 29,
-      "target": 2
-    },
-    {
-      "name": "태평동 동양파라곤 302동",
-      "have": 27,
+      "name": "태평동 버드내초등학교",
+      "have": 30,
       "target": 3
     },
     {
-      "name": "관평동 테크노타워",
-      "have": 24,
-      "target": 1
-    },
-    {
-      "name": "봉산동 송강프라자 대각선 건너편",
-      "have": 25,
+      "name": "장대동 장대공원 내 놀이터 옆",
+      "have": 30,
       "target": 4
     },
     {
-      "name": "정동 대전역(대한통운 건너편)",
+      "name": "태평동 유등마을(112동)",
+      "have": 29,
+      "target": 4
+    },
+    {
+      "name": "산성동 당대어린이공원",
+      "have": 25,
+      "target": 2
+    },
+    {
+      "name": "법동 대전지방국세청 서측",
       "have": 21,
       "target": 1
     },
     {
-      "name": "법동 대전지방국세청 서측",
-      "have": 20,
-      "target": 1
+      "name": "월평동 다모아아파트 상가",
+      "have": 25,
+      "target": 5
     }
   ],
   "route": {
-    "stops": 19,
-    "km": 31.6,
-    "delivered": 54,
-    "needed": 54
+    "stops": 20,
+    "km": 31.4,
+    "delivered": 50,
+    "needed": 50
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1026,
+      "bikes": 1028,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -113,7 +113,7 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 789,
+      "bikes": 808,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -137,14 +137,14 @@
         }
       ],
       "map": "route_10.html",
-      "km": 15.0,
-      "stops": 20
+      "km": 17.6,
+      "stops": 21
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1791,
+      "bikes": 1792,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
