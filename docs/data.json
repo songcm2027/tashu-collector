@@ -1,20 +1,35 @@
 {
-  "updated": "2026-09-23 22:43 UTC",
-  "snapshot": "2026-09-24 06:23:55",
+  "updated": "2026-09-24 23:02 UTC",
+  "snapshot": "2026-09-25 06:25:38",
   "daytype": "weekday",
   "stations": 1377,
-  "available": 2911,
-  "empty": 621,
-  "empty_pct": 45.1,
-  "to_add": 390,
+  "available": 2988,
+  "empty": 586,
+  "empty_pct": 42.6,
+  "to_add": 361,
   "short": [
     {
-      "name": "신흥동 SK뷰(106동)",
+      "name": "궁동 유성문화원",
+      "have": 0,
+      "target": 5
+    },
+    {
+      "name": "봉산동 송강프라자 대각선 건너편",
       "have": 0,
       "target": 4
     },
     {
-      "name": "궁동 다솔아파트 입구",
+      "name": "천동 리더스시티 5단지아파트 511동",
+      "have": 0,
+      "target": 3
+    },
+    {
+      "name": "자양동 우송대건너편",
+      "have": 2,
+      "target": 5
+    },
+    {
+      "name": "갈마동 갈마지구대",
       "have": 0,
       "target": 3
     },
@@ -22,60 +37,45 @@
       "name": "둔산동 법원 버스정류장",
       "have": 0,
       "target": 3
-    },
-    {
-      "name": "둔산동 둔산청솔아파트(9동)",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "전민동 행정복지센터 건너편",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "궁동 버스정류장(유성구청 방향)",
-      "have": 0,
-      "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 34,
+      "name": "오류동 서대전역",
+      "have": 29,
       "target": 3
     },
     {
-      "name": "목상동 다사랑아파트 104동",
-      "have": 33,
-      "target": 8
-    },
-    {
-      "name": "태평동 동양파라곤 302동",
-      "have": 23,
+      "name": "태평동 버드내초등학교",
+      "have": 28,
       "target": 3
     },
     {
-      "name": "태평동 유등마을(112동)",
-      "have": 23,
-      "target": 4
-    },
-    {
-      "name": "법동 대전지방국세청 서측",
-      "have": 19,
+      "name": "구암동 구암역 1번출구 건너편",
+      "have": 26,
       "target": 1
     },
     {
+      "name": "월평동 사정어린이공원",
+      "have": 24,
+      "target": 2
+    },
+    {
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
+      "have": 28,
+      "target": 7
+    },
+    {
       "name": "신대동 신대노인복지관",
-      "have": 19,
+      "have": 21,
       "target": 1
     }
   ],
   "route": {
-    "stops": 18,
-    "km": 26.5,
-    "delivered": 40,
-    "needed": 40
+    "stops": 19,
+    "km": 32.4,
+    "delivered": 44,
+    "needed": 44
   },
   "schedule": [
     {
@@ -113,7 +113,7 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 854,
+      "bikes": 892,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -124,27 +124,27 @@
           "q": 8
         },
         {
-          "name": "어은동 카이스트 학사식당",
-          "q": 5
+          "name": "어은동 한빛아파트(126동 건너편)",
+          "q": 6
         },
         {
           "name": "어은동 한빛아파트(126동 앞)",
-          "q": 5
+          "q": 6
         },
         {
           "name": "둔산동 샘머리아파트(209동)",
-          "q": 4
+          "q": 5
         }
       ],
       "map": "route_10.html",
-      "km": 19.4,
-      "stops": 21
+      "km": 19.7,
+      "stops": 20
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1795,
+      "bikes": 1797,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
