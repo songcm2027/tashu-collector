@@ -1,95 +1,91 @@
 {
-  "updated": "2026-09-25 23:06 UTC",
-  "snapshot": "2026-09-26 06:24:14",
+  "updated": "2026-09-26 22:23 UTC",
+  "snapshot": "2026-09-27 05:56:30",
   "daytype": "weekend",
   "stations": 1377,
-  "available": 3037,
-  "empty": 554,
-  "empty_pct": 40.2,
-  "to_add": 172,
+  "available": 2942,
+  "empty": 591,
+  "empty_pct": 42.9,
+  "to_add": 169,
   "short": [
     {
-      "name": "월평동 둔산테크노(월평주공3단지 뒤편)",
-      "have": 1,
-      "target": 4
-    },
-    {
-      "name": "갈마동 갈마중학교입구(상수도사업본부 방면)정류장",
+      "name": "가양동 드림팰리스5차",
       "have": 0,
       "target": 2
     },
     {
-      "name": "원신흥동 갑천2블럭 트리풀시티 엘리프 정문 앞",
+      "name": "가양동 우송대 서문 건너편",
       "have": 0,
       "target": 2
     },
     {
-      "name": "갈마동 갈마지구대",
+      "name": "갈마동 갈마육교(동산맨션)",
       "have": 0,
       "target": 2
     },
     {
-      "name": "죽동 대원칸타빌",
-      "have": 1,
-      "target": 3
+      "name": "장대동 드림월드아파트 102동(유성대로 방향)",
+      "have": 0,
+      "target": 2
     },
     {
-      "name": "구성동 카이스트 다솜관",
+      "name": "갈마동 갈마네거리(갈마초방면) 정류장",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "탄방동 e편한세상(102동)",
       "have": 0,
       "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 32,
-      "target": 4
+      "name": "태평동 유등마을(112동)",
+      "have": 38,
+      "target": 2
     },
     {
-      "name": "용문동 롯데렌터카",
-      "have": 25,
-      "target": 2
+      "name": "어은동 어은치안센터 입구",
+      "have": 28,
+      "target": 1
     },
     {
       "name": "목상동 다사랑아파트 104동",
+      "have": 29,
+      "target": 3
+    },
+    {
+      "name": "어은동 한빛아파트(126동 건너편)",
       "have": 23,
-      "target": 2
+      "target": 1
     },
     {
-      "name": "신대동 신대노인복지관",
+      "name": "죽동 대원칸타빌",
       "have": 20,
-      "target": 0
+      "target": 1
     },
     {
-      "name": "읍내동 대덕문화원",
+      "name": "구성동 카이스트 세종관",
       "have": 19,
-      "target": 0
-    },
-    {
-      "name": "구암동 구암역 1번출구 건너편",
-      "have": 18,
-      "target": 0
+      "target": 1
     }
   ],
   "route": {
     "stops": 18,
-    "km": 24.1,
-    "delivered": 31,
-    "needed": 31
+    "km": 23.3,
+    "delivered": 30,
+    "needed": 30
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 888,
+      "bikes": 896,
       "fill": [
         {
           "name": "둔산동 하이마트",
-          "q": 6
-        },
-        {
-          "name": "둔산동 현대아이텔(시청역 6번출구)",
           "q": 6
         },
         {
@@ -103,20 +99,28 @@
         {
           "name": "월평동 미래빌딩",
           "q": 6
+        },
+        {
+          "name": "구성동 카이스트 서쪽 쪽문",
+          "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 22.1,
+      "km": 19.9,
       "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1455,
+      "bikes": 1439,
       "fill": [
         {
           "name": "봉명동 매드블럭",
+          "q": 8
+        },
+        {
+          "name": "도룡동 엑스포과학공원",
           "q": 8
         },
         {
@@ -130,15 +134,11 @@
         {
           "name": "부사동 우체국",
           "q": 8
-        },
-        {
-          "name": "부사동 부사 119안전센터",
-          "q": 7
         }
       ],
       "map": "route_13.html",
-      "km": 38.9,
-      "stops": 28
+      "km": 43.7,
+      "stops": 27
     }
   ]
 }
