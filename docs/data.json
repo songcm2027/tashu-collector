@@ -1,144 +1,175 @@
 {
-  "updated": "2026-09-26 22:23 UTC",
-  "snapshot": "2026-09-27 05:56:30",
-  "daytype": "weekend",
+  "updated": "2026-09-27 22:51 UTC",
+  "snapshot": "2026-09-28 06:12:46",
+  "daytype": "weekday",
   "stations": 1377,
-  "available": 2942,
-  "empty": 591,
-  "empty_pct": 42.9,
-  "to_add": 169,
+  "available": 2885,
+  "empty": 601,
+  "empty_pct": 43.6,
+  "to_add": 443,
   "short": [
     {
-      "name": "가양동 드림팰리스5차",
+      "name": "자양동 우송대건너편",
       "have": 0,
-      "target": 2
+      "target": 5
     },
     {
-      "name": "가양동 우송대 서문 건너편",
+      "name": "둔산동 국화아파트(501동)",
       "have": 0,
-      "target": 2
+      "target": 4
     },
     {
-      "name": "갈마동 갈마육교(동산맨션)",
+      "name": "월평동 은뜰마을아파트 201동 앞",
       "have": 0,
-      "target": 2
+      "target": 4
     },
     {
-      "name": "장대동 드림월드아파트 102동(유성대로 방향)",
+      "name": "둔산동 한마루아파트 5동",
       "have": 0,
-      "target": 2
+      "target": 3
     },
     {
-      "name": "갈마동 갈마네거리(갈마초방면) 정류장",
+      "name": "삼성동 한밭자이 정류장(104동)",
       "have": 0,
-      "target": 2
+      "target": 3
     },
     {
-      "name": "탄방동 e편한세상(102동)",
-      "have": 0,
-      "target": 2
+      "name": "신흥동 SK뷰(106동)",
+      "have": 1,
+      "target": 4
     }
   ],
   "surplus": [
     {
-      "name": "태평동 유등마을(112동)",
-      "have": 38,
+      "name": "구성동 카이스트 서쪽 쪽문",
+      "have": 54,
       "target": 2
     },
     {
-      "name": "어은동 어은치안센터 입구",
-      "have": 28,
+      "name": "구성동 카이스트 다솜관",
+      "have": 43,
+      "target": 2
+    },
+    {
+      "name": "신일동 을미기체육공원",
+      "have": 25,
       "target": 1
     },
     {
-      "name": "목상동 다사랑아파트 104동",
-      "have": 29,
-      "target": 3
+      "name": "중리동 한밭캠퍼스빌오피스텔",
+      "have": 25,
+      "target": 2
     },
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 23,
-      "target": 1
+      "name": "중리동 한남대학교 후문",
+      "have": 22,
+      "target": 2
     },
     {
-      "name": "죽동 대원칸타빌",
-      "have": 20,
-      "target": 1
-    },
-    {
-      "name": "구성동 카이스트 세종관",
-      "have": 19,
-      "target": 1
+      "name": "만년동 갑천네거리",
+      "have": 22,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 18,
-    "km": 23.3,
-    "delivered": 30,
-    "needed": 30
+    "stops": 20,
+    "km": 24.6,
+    "delivered": 49,
+    "needed": 49
   },
   "schedule": [
     {
       "time": "05:00",
-      "until": "13:00",
-      "label": "early morning",
-      "bikes": 896,
+      "until": "10:00",
+      "label": "before morning peak",
+      "bikes": 1032,
       "fill": [
         {
-          "name": "둔산동 하이마트",
+          "name": "둔산동 정부청사 입구(남문)",
+          "q": 15
+        },
+        {
+          "name": "둔산동 세이브존",
+          "q": 8
+        },
+        {
+          "name": "어은동 유성구청",
           "q": 6
         },
         {
-          "name": "둔산동 타임월드",
+          "name": "유천동 서대전역 후문 출구",
           "q": 6
         },
         {
-          "name": "갈마동 갈마역 2번출구",
-          "q": 6
-        },
-        {
-          "name": "월평동 미래빌딩",
-          "q": 6
-        },
-        {
-          "name": "구성동 카이스트 서쪽 쪽문",
+          "name": "정동 대전역(대한통운 건너편)",
           "q": 6
         }
       ],
       "map": "route_05.html",
-      "km": 19.9,
-      "stops": 23
+      "km": 42.6,
+      "stops": 27
     },
     {
-      "time": "13:00",
-      "until": "24:00",
-      "label": "before evening peak",
-      "bikes": 1439,
+      "time": "10:00",
+      "until": "14:00",
+      "label": "midday reset",
+      "bikes": 908,
       "fill": [
         {
-          "name": "봉명동 매드블럭",
+          "name": "어은동 어은치안센터 입구",
+          "q": 12
+        },
+        {
+          "name": "구성동 카이스트 서쪽 쪽문",
           "q": 8
         },
         {
-          "name": "도룡동 엑스포과학공원",
-          "q": 8
+          "name": "어은동 한빛아파트(126동 건너편)",
+          "q": 6
         },
+        {
+          "name": "만년동 행정복지센터",
+          "q": 6
+        },
+        {
+          "name": "어은동 한빛아파트(126동 앞)",
+          "q": 6
+        }
+      ],
+      "map": "route_10.html",
+      "km": 24.5,
+      "stops": 22
+    },
+    {
+      "time": "14:00",
+      "until": "24:00",
+      "label": "before evening peak",
+      "bikes": 1798,
+      "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 8
+          "q": 20
         },
         {
-          "name": "도룡동 무역전시관입구(미래에너지움 앞)",
-          "q": 8
+          "name": "구성동 카이스트 서쪽 쪽문",
+          "q": 16
         },
         {
-          "name": "부사동 우체국",
+          "name": "어은동 한빛아파트(126동 건너편)",
+          "q": 11
+        },
+        {
+          "name": "봉명동 하이랜드 1차",
+          "q": 10
+        },
+        {
+          "name": "둔산동 샘머리아파트(209동)",
           "q": 8
         }
       ],
-      "map": "route_13.html",
-      "km": 43.7,
-      "stops": 27
+      "map": "route_14.html",
+      "km": 55.0,
+      "stops": 30
     }
   ]
 }
