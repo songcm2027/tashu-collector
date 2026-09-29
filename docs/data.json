@@ -1,88 +1,88 @@
 {
-  "updated": "2026-09-29 00:13 UTC",
-  "snapshot": "2026-09-29 08:10:28",
+  "updated": "2026-09-29 23:27 UTC",
+  "snapshot": "2026-09-30 07:08:37",
   "daytype": "weekday",
   "stations": 1377,
-  "available": 2486,
-  "empty": 657,
-  "empty_pct": 47.7,
-  "to_add": 1443,
+  "available": 2738,
+  "empty": 634,
+  "empty_pct": 46.0,
+  "to_add": 861,
   "short": [
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 0,
-      "target": 25
-    },
-    {
-      "name": "신성동 대림두레(101동)",
-      "have": 0,
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 6,
       "target": 14
     },
     {
-      "name": "어은동 한빛아파트(126동 앞)",
-      "have": 0,
-      "target": 13
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
+      "have": 6,
+      "target": 14
     },
     {
-      "name": "어은동 어은치안센터 입구",
-      "have": 4,
-      "target": 15
+      "name": "둔산동 정부청사역 4번출구",
+      "have": 1,
+      "target": 7
+    },
+    {
+      "name": "평촌동 행복한마을 신일유토빌(102동)",
+      "have": 0,
+      "target": 6
     },
     {
       "name": "만년동 행정복지센터",
-      "have": 0,
+      "have": 5,
       "target": 11
     },
     {
-      "name": "용두동 하늘채엘센트로",
-      "have": 4,
-      "target": 15
+      "name": "탄방동 e편한세상(102동)",
+      "have": 1,
+      "target": 6
     }
   ],
   "surplus": [
     {
-      "name": "둔산동 정부청사 입구(남문)",
-      "have": 44,
-      "target": 0
-    },
-    {
-      "name": "삼성동 한밭중네거리(북부교 방면)  ",
-      "have": 22,
+      "name": "읍내동 대덕문화원",
+      "have": 21,
       "target": 1
     },
     {
-      "name": "유천동 278-30",
+      "name": "노은동 열매마을 9단지(910동)",
       "have": 21,
       "target": 3
     },
     {
-      "name": "오정동 한남육교 아래",
-      "have": 23,
-      "target": 5
-    },
-    {
-      "name": "정동 대전역(대한통운 건너편)",
+      "name": "태평동 유등마을(112동)",
       "have": 25,
       "target": 8
     },
     {
-      "name": "구성동 카이스트 정보전자동 (1410)",
+      "name": "월평역 이마트 트레이더스",
+      "have": 21,
+      "target": 4
+    },
+    {
+      "name": "오정동 한남오거리 새마을금고",
       "have": 18,
       "target": 1
+    },
+    {
+      "name": "태평동 삼부프라자",
+      "have": 20,
+      "target": 5
     }
   ],
   "route": {
-    "stops": 27,
-    "km": 36.6,
-    "delivered": 141,
-    "needed": 166
+    "stops": 22,
+    "km": 26.7,
+    "delivered": 82,
+    "needed": 82
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1038,
+      "bikes": 1040,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -113,7 +113,7 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 916,
+      "bikes": 910,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 55.0,
-      "stops": 30
+      "km": 52.0,
+      "stops": 32
     }
   ]
 }
