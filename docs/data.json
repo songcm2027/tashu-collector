@@ -1,88 +1,88 @@
 {
-  "updated": "2026-10-02 23:36 UTC",
-  "snapshot": "2026-10-03 07:05:43",
+  "updated": "2026-10-03 22:42 UTC",
+  "snapshot": "2026-10-04 05:54:19",
   "daytype": "weekend",
   "stations": 1375,
-  "available": 3005,
-  "empty": 600,
-  "empty_pct": 43.6,
-  "to_add": 304,
+  "available": 3153,
+  "empty": 595,
+  "empty_pct": 43.3,
+  "to_add": 188,
   "short": [
     {
-      "name": "문평동 옥봉 신탄진물류센터",
+      "name": "용문동 롯데백화점 뒤 우정어린이공원",
+      "have": 2,
+      "target": 5
+    },
+    {
+      "name": "봉명동 스카이뷰로드오피스텔 건너편",
       "have": 0,
-      "target": 4
+      "target": 2
     },
     {
-      "name": "만년동 초원아파트105동 육교 밑",
-      "have": 1,
-      "target": 4
-    },
-    {
-      "name": "정림동 서구국민체육센터",
+      "name": "둔산동 큰마을네거리",
       "have": 0,
-      "target": 3
+      "target": 2
     },
     {
-      "name": "목동더샵리슈빌 정문",
+      "name": "월평동 월평역 1번출구",
       "have": 0,
-      "target": 3
+      "target": 2
     },
     {
-      "name": "궁동 다솔아파트 입구",
+      "name": "도안동 하나은행",
       "have": 0,
-      "target": 3
+      "target": 2
     },
     {
-      "name": "월평동 선사유적지공용주차장",
+      "name": "도룡동 무역전시관입구(미래에너지움 앞)",
       "have": 0,
       "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "태평동 동양파라곤 302동",
-      "have": 40,
-      "target": 4
+      "name": "어은동 어은치안센터 입구",
+      "have": 51,
+      "target": 1
     },
     {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 33,
-      "target": 4
+      "name": "태평동 유등마을(112동)",
+      "have": 28,
+      "target": 2
     },
     {
-      "name": "도안동 도안 17단지 계룡리슈빌(1710동)",
+      "name": "구성동 카이스트 다솜관",
+      "have": 25,
+      "target": 1
+    },
+    {
+      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
+      "have": 26,
+      "target": 3
+    },
+    {
+      "name": "변동 향우네거리",
       "have": 24,
       "target": 2
     },
     {
-      "name": "덕암동 자연애마트 신탄진점",
+      "name": "변동 변동네거리(복음천하교회)",
       "have": 23,
       "target": 1
-    },
-    {
-      "name": "산성동 멋티어린이공원",
-      "have": 22,
-      "target": 1
-    },
-    {
-      "name": "월평동 다모아아파트 상가",
-      "have": 25,
-      "target": 5
     }
   ],
   "route": {
     "stops": 18,
-    "km": 40.8,
-    "delivered": 36,
-    "needed": 36
+    "km": 21.4,
+    "delivered": 31,
+    "needed": 31
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 922,
+      "bikes": 942,
       "fill": [
         {
           "name": "둔산동 하이마트",
@@ -106,15 +106,19 @@
         }
       ],
       "map": "route_05.html",
-      "km": 19.4,
-      "stops": 22
+      "km": 19.6,
+      "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1455,
+      "bikes": 1464,
       "fill": [
+        {
+          "name": "도룡동 무역전시관입구(미래에너지움 앞)",
+          "q": 10
+        },
         {
           "name": "도룡동 엑스포과학공원",
           "q": 10
@@ -129,16 +133,12 @@
         },
         {
           "name": "부사동 우체국",
-          "q": 8
-        },
-        {
-          "name": "부사동 부사 119안전센터",
           "q": 7
         }
       ],
       "map": "route_13.html",
-      "km": 42.9,
-      "stops": 27
+      "km": 42.3,
+      "stops": 29
     }
   ]
 }
