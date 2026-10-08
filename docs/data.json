@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-06 23:37 UTC",
-  "snapshot": "2026-10-07 07:36:46",
+  "updated": "2026-10-08 00:05 UTC",
+  "snapshot": "2026-10-08 07:59:45",
   "daytype": "weekday",
-  "stations": 1372,
-  "available": 2665,
-  "empty": 624,
-  "empty_pct": 45.5,
-  "to_add": 943,
+  "stations": 1373,
+  "available": 2696,
+  "empty": 645,
+  "empty_pct": 47.0,
+  "to_add": 1068,
   "short": [
     {
       "name": "둔산동 수정타운아파트 상가",
@@ -14,9 +14,14 @@
       "target": 13
     },
     {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 5,
-      "target": 15
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 0,
+      "target": 12
+    },
+    {
+      "name": "전민동 엑스포아파트 5단지 상가",
+      "have": 0,
+      "target": 10
     },
     {
       "name": "만년동 행정복지센터",
@@ -24,17 +29,12 @@
       "target": 11
     },
     {
-      "name": "죽동 대원칸타빌",
+      "name": "월평동 다모아아파트 상가",
       "have": 0,
-      "target": 7
+      "target": 9
     },
     {
-      "name": "중촌동 푸르지오(정문)",
-      "have": 0,
-      "target": 7
-    },
-    {
-      "name": "서구 만년동 10(만년고 뒤편)",
+      "name": "봉산동 송강프라자 대각선 건너편",
       "have": 0,
       "target": 7
     }
@@ -42,47 +42,47 @@
   "surplus": [
     {
       "name": "둔산동 정부청사 입구(남문)",
-      "have": 32,
+      "have": 35,
       "target": 0
     },
     {
-      "name": "복수동 초록마을아파트 3단지",
-      "have": 22,
+      "name": "정동 대전역(대한통운 건너편)",
+      "have": 28,
       "target": 3
     },
     {
-      "name": "장대동 장대공원 내 놀이터 옆",
-      "have": 24,
-      "target": 7
-    },
-    {
-      "name": "변동 변동네거리(복음천하교회)",
-      "have": 18,
-      "target": 2
+      "name": "삼성동 한밭중네거리(북부교 방면)  ",
+      "have": 22,
+      "target": 0
     },
     {
       "name": "읍내동 대덕문화원",
-      "have": 17,
+      "have": 22,
       "target": 1
     },
     {
-      "name": "중리동 한밭캠퍼스빌오피스텔",
-      "have": 19,
-      "target": 4
+      "name": "중리동 한남대학교 후문",
+      "have": 22,
+      "target": 2
+    },
+    {
+      "name": "태평동 버드내마을1단지 119동 앞",
+      "have": 20,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 25,
-    "km": 31.0,
-    "delivered": 106,
-    "needed": 106
+    "stops": 26,
+    "km": 33.9,
+    "delivered": 120,
+    "needed": 120
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1030,
+      "bikes": 1034,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -113,7 +113,7 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 917,
+      "bikes": 923,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1799,
+      "bikes": 1804,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 50.8,
-      "stops": 29
+      "km": 52.8,
+      "stops": 32
     }
   ]
 }
