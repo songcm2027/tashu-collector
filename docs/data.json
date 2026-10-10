@@ -1,59 +1,59 @@
 {
-  "updated": "2026-10-09 23:52 UTC",
-  "snapshot": "2026-10-10 07:31:39",
+  "updated": "2026-10-10 23:14 UTC",
+  "snapshot": "2026-10-11 06:27:29",
   "daytype": "weekend",
   "stations": 1373,
-  "available": 2990,
-  "empty": 583,
-  "empty_pct": 42.5,
-  "to_add": 306,
+  "available": 3055,
+  "empty": 587,
+  "empty_pct": 42.8,
+  "to_add": 192,
   "short": [
     {
-      "name": "월평동 진달래아파트 상가 앞",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "궁동 다솔아파트 입구",
+      "name": "용문동 롯데백화점 뒤 우정어린이공원",
       "have": 0,
       "target": 3
     },
     {
-      "name": "자양동 우송대건너편",
+      "name": "월평동 하나로아파트 101동 앞",
       "have": 0,
       "target": 3
     },
     {
-      "name": "문평동 옥봉 신탄진물류센터",
+      "name": "어은동 유성구청",
+      "have": 0,
+      "target": 3
+    },
+    {
+      "name": "노은동 열매마을 9단지(910동)",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "갈마동 갈마네거리(갈마초방면) 정류장",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "만년동 초원아파트105동 육교 밑",
       "have": 1,
-      "target": 4
-    },
-    {
-      "name": "장대동 온천2동 행정복지센터",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "둔산동 샘머리아파트(209동)",
-      "have": 0,
       "target": 3
     }
   ],
   "surplus": [
     {
-      "name": "관평동 테크노타워",
-      "have": 29,
-      "target": 1
-    },
-    {
       "name": "오정동 한남육교 아래",
-      "have": 27,
+      "have": 33,
       "target": 1
     },
     {
-      "name": "태평동 유등마을(112동)",
-      "have": 25,
-      "target": 3
+      "name": "태평동 쌍용예가",
+      "have": 26,
+      "target": 2
+    },
+    {
+      "name": "중리동 한밭캠퍼스빌오피스텔",
+      "have": 24,
+      "target": 2
     },
     {
       "name": "태평동 버드내초등학교",
@@ -61,21 +61,21 @@
       "target": 2
     },
     {
-      "name": "월평동 대전교통공사",
-      "have": 21,
-      "target": 0
+      "name": "도안동 도안 17단지 계룡리슈빌(1710동)",
+      "have": 22,
+      "target": 1
     },
     {
-      "name": "문화동 주공3단지아파트(302동)",
+      "name": "어은동 한빛아파트(126동 건너편)",
       "have": 22,
       "target": 2
     }
   ],
   "route": {
     "stops": 18,
-    "km": 30.9,
-    "delivered": 37,
-    "needed": 37
+    "km": 26.2,
+    "delivered": 33,
+    "needed": 33
   },
   "schedule": [
     {
@@ -113,11 +113,11 @@
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1499,
+      "bikes": 1482,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 14
+          "q": 13
         },
         {
           "name": "어은동 한빛아파트(125동 건너편)",
@@ -132,13 +132,13 @@
           "q": 10
         },
         {
-          "name": "봉명동 매드블럭",
+          "name": "부사동 부사 119안전센터",
           "q": 8
         }
       ],
       "map": "route_13.html",
-      "km": 53.1,
-      "stops": 31
+      "km": 51.1,
+      "stops": 30
     }
   ]
 }
