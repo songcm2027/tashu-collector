@@ -1,81 +1,81 @@
 {
-  "updated": "2026-10-11 23:27 UTC",
-  "snapshot": "2026-10-12 06:44:43",
+  "updated": "2026-10-13 01:52 UTC",
+  "snapshot": "2026-10-13 09:28:12",
   "daytype": "weekday",
-  "stations": 1373,
-  "available": 3008,
-  "empty": 565,
-  "empty_pct": 41.2,
-  "to_add": 476,
+  "stations": 1376,
+  "available": 3161,
+  "empty": 572,
+  "empty_pct": 41.6,
+  "to_add": 655,
   "short": [
     {
-      "name": "목상동 다사랑아파트 104동",
-      "have": 0,
-      "target": 8
+      "name": "구성동 카이스트 다솜관",
+      "have": 5,
+      "target": 13
     },
     {
-      "name": "월평동 황실타운 상가",
+      "name": "둔산동 정부청사 입구(남문)",
+      "have": 1,
+      "target": 9
+    },
+    {
+      "name": "어은동 카이스트 학사식당",
       "have": 0,
       "target": 5
     },
     {
-      "name": "둔산동 샘머리아파트(209동)",
+      "name": "어은동 한빛아파트(126동 앞)",
       "have": 2,
-      "target": 6
+      "target": 7
     },
     {
-      "name": "둔산동 국화아파트(501동)",
+      "name": "봉명동 홈플러스 유성점",
       "have": 0,
       "target": 4
     },
     {
-      "name": "신흥동 SK뷰(106동)",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "태평동 쌍용예가",
+      "name": "구성동 카이스트 세종관",
       "have": 1,
       "target": 5
     }
   ],
   "surplus": [
     {
-      "name": "중리동 한밭캠퍼스빌오피스텔",
-      "have": 41,
-      "target": 2
+      "name": "태평동 동양파라곤 302동",
+      "have": 27,
+      "target": 4
     },
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 30,
-      "target": 2
-    },
-    {
-      "name": "어은동 어은치안센터 입구",
-      "have": 28,
-      "target": 3
-    },
-    {
-      "name": "전민동 엑스포아파트 307동",
-      "have": 26,
-      "target": 3
-    },
-    {
-      "name": "오정동 한남육교 아래",
-      "have": 21,
-      "target": 1
+      "name": "태평동 유등마을(112동)",
+      "have": 29,
+      "target": 7
     },
     {
       "name": "읍내동 대덕문화원",
-      "have": 20,
-      "target": 0
+      "have": 23,
+      "target": 2
+    },
+    {
+      "name": "삼성동 한밭빌라",
+      "have": 22,
+      "target": 1
+    },
+    {
+      "name": "전민동 엑스포아파트 307동",
+      "have": 22,
+      "target": 2
+    },
+    {
+      "name": "탄방동 e편한세상(102동)",
+      "have": 21,
+      "target": 2
     }
   ],
   "route": {
     "stops": 21,
-    "km": 38.6,
-    "delivered": 59,
-    "needed": 59
+    "km": 17.8,
+    "delivered": 70,
+    "needed": 70
   },
   "schedule": [
     {
@@ -113,7 +113,7 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 947,
+      "bikes": 958,
       "fill": [
         {
           "name": "어은동 어은치안센터 입구",
@@ -128,11 +128,11 @@
           "q": 8
         },
         {
-          "name": "어은동 한빛아파트(125동 건너편)",
+          "name": "어은동 한빛아파트(130동 건너편)",
           "q": 7
         },
         {
-          "name": "어은동 한빛아파트(130동 건너편)",
+          "name": "어은동 한빛아파트(125동 건너편)",
           "q": 7
         }
       ],
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1804,
+      "bikes": 1802,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 50.6,
-      "stops": 31
+      "km": 56.9,
+      "stops": 29
     }
   ]
 }
