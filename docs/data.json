@@ -1,88 +1,88 @@
 {
-  "updated": "2026-10-13 01:52 UTC",
-  "snapshot": "2026-10-13 09:28:12",
+  "updated": "2026-10-13 23:38 UTC",
+  "snapshot": "2026-10-14 07:32:06",
   "daytype": "weekday",
   "stations": 1376,
-  "available": 3161,
-  "empty": 572,
-  "empty_pct": 41.6,
-  "to_add": 655,
+  "available": 2823,
+  "empty": 646,
+  "empty_pct": 46.9,
+  "to_add": 914,
   "short": [
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 5,
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 0,
+      "target": 12
+    },
+    {
+      "name": "만년동 행정복지센터",
+      "have": 0,
+      "target": 11
+    },
+    {
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 2,
       "target": 13
     },
     {
-      "name": "둔산동 정부청사 입구(남문)",
-      "have": 1,
+      "name": "월평동 다모아아파트 상가",
+      "have": 0,
       "target": 9
     },
     {
-      "name": "어은동 카이스트 학사식당",
+      "name": "월평동 은뜰마을아파트 201동 앞",
       "have": 0,
-      "target": 5
+      "target": 9
     },
     {
-      "name": "어은동 한빛아파트(126동 앞)",
-      "have": 2,
+      "name": "서구 만년동 10(만년고 뒤편)",
+      "have": 0,
       "target": 7
-    },
-    {
-      "name": "봉명동 홈플러스 유성점",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "구성동 카이스트 세종관",
-      "have": 1,
-      "target": 5
     }
   ],
   "surplus": [
     {
-      "name": "태평동 동양파라곤 302동",
-      "have": 27,
-      "target": 4
-    },
-    {
-      "name": "태평동 유등마을(112동)",
-      "have": 29,
+      "name": "장대동 장대공원 내 놀이터 옆",
+      "have": 45,
       "target": 7
     },
     {
-      "name": "읍내동 대덕문화원",
-      "have": 23,
-      "target": 2
+      "name": "월평1동 행정복지센터 옆",
+      "have": 40,
+      "target": 6
     },
     {
       "name": "삼성동 한밭빌라",
-      "have": 22,
+      "have": 29,
+      "target": 3
+    },
+    {
+      "name": "읍내동 대덕문화원",
+      "have": 25,
       "target": 1
     },
     {
       "name": "전민동 엑스포아파트 307동",
-      "have": 22,
-      "target": 2
+      "have": 26,
+      "target": 3
     },
     {
-      "name": "탄방동 e편한세상(102동)",
-      "have": 21,
-      "target": 2
+      "name": "탄방동 대전 도산서원입구",
+      "have": 26,
+      "target": 4
     }
   ],
   "route": {
-    "stops": 21,
-    "km": 17.8,
-    "delivered": 70,
-    "needed": 70
+    "stops": 24,
+    "km": 28.4,
+    "delivered": 109,
+    "needed": 109
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1025,
+      "bikes": 1031,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,8 +106,8 @@
         }
       ],
       "map": "route_05.html",
-      "km": 42.6,
-      "stops": 24
+      "km": 45.0,
+      "stops": 26
     },
     {
       "time": "10:00",
@@ -128,11 +128,11 @@
           "q": 8
         },
         {
-          "name": "어은동 한빛아파트(130동 건너편)",
+          "name": "어은동 한빛아파트(125동 건너편)",
           "q": 7
         },
         {
-          "name": "어은동 한빛아파트(125동 건너편)",
+          "name": "어은동 한빛아파트(130동 건너편)",
           "q": 7
         }
       ],
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1802,
+      "bikes": 1805,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,7 +168,7 @@
         }
       ],
       "map": "route_14.html",
-      "km": 56.9,
+      "km": 53.9,
       "stops": 29
     }
   ]
