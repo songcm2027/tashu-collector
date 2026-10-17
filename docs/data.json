@@ -1,22 +1,32 @@
 {
-  "updated": "2026-10-16 22:29 UTC",
-  "snapshot": "2026-10-17 05:49:52",
+  "updated": "2026-10-17 22:02 UTC",
+  "snapshot": "2026-10-18 05:25:29",
   "daytype": "weekend",
   "stations": 1379,
-  "available": 3093,
-  "empty": 629,
-  "empty_pct": 45.6,
-  "to_add": 216,
+  "available": 3052,
+  "empty": 619,
+  "empty_pct": 44.9,
+  "to_add": 212,
   "short": [
     {
-      "name": "자양동 우송대건너편",
+      "name": "궁동 버스정류장(유성구청 방향)",
+      "have": 0,
+      "target": 5
+    },
+    {
+      "name": "궁동 유성문화원",
       "have": 1,
       "target": 5
     },
     {
-      "name": "용문동 롯데백화점 뒤 우정어린이공원",
-      "have": 2,
-      "target": 5
+      "name": "봉명동 노블레스3",
+      "have": 3,
+      "target": 6
+    },
+    {
+      "name": "중촌동 제일프라자",
+      "have": 0,
+      "target": 3
     },
     {
       "name": "도안동 하나은행",
@@ -24,70 +34,56 @@
       "target": 2
     },
     {
-      "name": "중촌동 제일프라자",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "괴정동 롯데백화점 허리사랑병원",
-      "have": 0,
-      "target": 2
-    },
-    {
-      "name": "신흥동 SK뷰(106동)",
+      "name": "월평동 월평주공3단지 303동 앞",
       "have": 0,
       "target": 2
     }
   ],
   "surplus": [
     {
+      "name": "어은동 어은치안센터 입구",
+      "have": 70,
+      "target": 1
+    },
+    {
       "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 43,
+      "have": 40,
       "target": 2
     },
     {
-      "name": "삼성동 한밭빌라",
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 30,
+      "target": 2
+    },
+    {
+      "name": "태평동 동양파라곤 302동",
       "have": 28,
-      "target": 1
+      "target": 2
     },
     {
-      "name": "산성동 당대어린이공원",
-      "have": 25,
-      "target": 1
+      "name": "태평동 유등마을(112동)",
+      "have": 28,
+      "target": 2
     },
     {
-      "name": "봉산동 송강프라자 대각선 건너편",
-      "have": 25,
-      "target": 1
-    },
-    {
-      "name": "용두동 하늘채엘센트로",
-      "have": 22,
-      "target": 1
-    },
-    {
-      "name": "원신흥동 갑천2블럭 트리풀시티 엘리프 정문 앞",
-      "have": 22,
-      "target": 1
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 28,
+      "target": 2
     }
   ],
   "route": {
     "stops": 18,
-    "km": 29.8,
-    "delivered": 33,
-    "needed": 33
+    "km": 25.0,
+    "delivered": 37,
+    "needed": 37
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 934,
+      "bikes": 921,
       "fill": [
-        {
-          "name": "둔산동 하이마트",
-          "q": 6
-        },
         {
           "name": "둔산동 타임월드",
           "q": 6
@@ -97,23 +93,27 @@
           "q": 6
         },
         {
-          "name": "월평동 미래빌딩",
+          "name": "구성동 카이스트 서쪽 쪽문",
           "q": 6
         },
         {
-          "name": "구성동 카이스트 서쪽 쪽문",
-          "q": 6
+          "name": "궁동 온천교(충남대학교 방면)",
+          "q": 5
+        },
+        {
+          "name": "둔산동 하이마트",
+          "q": 5
         }
       ],
       "map": "route_05.html",
-      "km": 21.3,
-      "stops": 22
+      "km": 20.0,
+      "stops": 23
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1493,
+      "bikes": 1480,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -137,8 +137,8 @@
         }
       ],
       "map": "route_13.html",
-      "km": 52.9,
-      "stops": 28
+      "km": 53.9,
+      "stops": 31
     }
   ]
 }
