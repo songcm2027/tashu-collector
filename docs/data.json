@@ -1,88 +1,88 @@
 {
-  "updated": "2026-10-18 22:16 UTC",
-  "snapshot": "2026-10-19 05:26:21",
+  "updated": "2026-10-19 23:22 UTC",
+  "snapshot": "2026-10-20 07:13:41",
   "daytype": "weekday",
   "stations": 1379,
-  "available": 2978,
-  "empty": 597,
-  "empty_pct": 43.3,
-  "to_add": 193,
+  "available": 2816,
+  "empty": 617,
+  "empty_pct": 44.7,
+  "to_add": 842,
   "short": [
     {
-      "name": "선화동 대전한신더휴리저브 1102동",
-      "have": 1,
-      "target": 3
-    },
-    {
-      "name": "봉명동 스카이뷰로드오피스텔 건너편",
+      "name": "전민동 엑스포아파트 5단지 상가",
       "have": 0,
-      "target": 2
+      "target": 10
     },
     {
-      "name": "갈마동 경성유치원",
+      "name": "죽동 대원칸타빌",
       "have": 0,
-      "target": 2
+      "target": 7
     },
     {
-      "name": "봉명동 유성온천역 6번출구",
+      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
       "have": 0,
-      "target": 2
+      "target": 7
     },
     {
-      "name": "상대동 도안 5단지 트리풀시티(509동)",
-      "have": 1,
-      "target": 3
-    },
-    {
-      "name": "봉명동 매드블럭",
+      "name": "갈마동 갈마중학교입구(상수도사업본부 방면)정류장",
       "have": 0,
-      "target": 2
+      "target": 6
+    },
+    {
+      "name": "문평동 옥봉 신탄진물류센터",
+      "have": 0,
+      "target": 6
+    },
+    {
+      "name": "태평동 버드내초등학교",
+      "have": 0,
+      "target": 6
     }
   ],
   "surplus": [
     {
-      "name": "홍도동 새마을금고 본점 건너편",
-      "have": 33,
-      "target": 2
+      "name": "가장동 래미안 1단지 건너편(115동)",
+      "have": 32,
+      "target": 6
     },
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 27,
+      "name": "태평동 유등마을(112동)",
+      "have": 30,
+      "target": 8
+    },
+    {
+      "name": "유천동 278-30",
+      "have": 23,
       "target": 1
     },
     {
-      "name": "삼성동 한밭빌라",
-      "have": 26,
+      "name": "둔산동 정부청사 입구(남문)",
+      "have": 20,
+      "target": 0
+    },
+    {
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 24,
+      "target": 5
+    },
+    {
+      "name": "산성동 원마트",
+      "have": 19,
       "target": 1
-    },
-    {
-      "name": "오정동 한남육교 아래",
-      "have": 25,
-      "target": 1
-    },
-    {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 25,
-      "target": 2
-    },
-    {
-      "name": "어은동 어은치안센터 입구",
-      "have": 25,
-      "target": 2
     }
   ],
   "route": {
-    "stops": 17,
-    "km": 22.1,
-    "delivered": 30,
-    "needed": 30
+    "stops": 23,
+    "km": 40.7,
+    "delivered": 85,
+    "needed": 85
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1025,
+      "bikes": 1029,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,14 +106,14 @@
         }
       ],
       "map": "route_05.html",
-      "km": 41.1,
-      "stops": 25
+      "km": 40.6,
+      "stops": 24
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 1084,
+      "bikes": 1134,
       "fill": [
         {
           "name": "어은동 한빛아파트(125동 건너편)",
@@ -129,26 +129,26 @@
         },
         {
           "name": "어은동 한빛아파트(126동 건너편)",
-          "q": 9
+          "q": 10
         },
         {
-          "name": "태평동 동양파라곤 302동",
-          "q": 9
+          "name": "어은동 한빛아파트(126동 앞)",
+          "q": 10
         }
       ],
       "map": "route_10.html",
-      "km": 30.7,
+      "km": 32.0,
       "stops": 27
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1811,
+      "bikes": 1829,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 20
+          "q": 19
         },
         {
           "name": "구성동 카이스트 서쪽 쪽문",
@@ -163,13 +163,13 @@
           "q": 10
         },
         {
-          "name": "둔산동 샘머리아파트(209동)",
-          "q": 8
+          "name": "가정동 국립중앙과학관입구",
+          "q": 9
         }
       ],
       "map": "route_14.html",
-      "km": 56.9,
-      "stops": 29
+      "km": 51.7,
+      "stops": 33
     }
   ]
 }
