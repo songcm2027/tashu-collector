@@ -1,81 +1,81 @@
 {
-  "updated": "2026-10-19 23:22 UTC",
-  "snapshot": "2026-10-20 07:13:41",
+  "updated": "2026-10-20 22:58 UTC",
+  "snapshot": "2026-10-21 06:29:01",
   "daytype": "weekday",
   "stations": 1379,
-  "available": 2816,
-  "empty": 617,
-  "empty_pct": 44.7,
-  "to_add": 842,
+  "available": 2924,
+  "empty": 620,
+  "empty_pct": 45.0,
+  "to_add": 462,
   "short": [
     {
-      "name": "전민동 엑스포아파트 5단지 상가",
+      "name": "목상동 다사랑아파트 104동",
       "have": 0,
-      "target": 10
+      "target": 8
     },
     {
-      "name": "죽동 대원칸타빌",
+      "name": "태평동 삼부프라자",
       "have": 0,
-      "target": 7
+      "target": 5
     },
     {
-      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
+      "name": "천동 휴먼시아 입구(201동)",
       "have": 0,
-      "target": 7
+      "target": 4
     },
     {
-      "name": "갈마동 갈마중학교입구(상수도사업본부 방면)정류장",
+      "name": "둔산동 국화아파트(501동)",
       "have": 0,
-      "target": 6
+      "target": 4
     },
     {
-      "name": "문평동 옥봉 신탄진물류센터",
+      "name": "상대동 도안 5단지 트리풀시티(509동)",
       "have": 0,
-      "target": 6
+      "target": 4
     },
     {
-      "name": "태평동 버드내초등학교",
+      "name": "월평동 진달래아파트 상가 앞",
       "have": 0,
-      "target": 6
+      "target": 4
     }
   ],
   "surplus": [
     {
-      "name": "가장동 래미안 1단지 건너편(115동)",
-      "have": 32,
-      "target": 6
-    },
-    {
-      "name": "태평동 유등마을(112동)",
-      "have": 30,
-      "target": 8
-    },
-    {
-      "name": "유천동 278-30",
-      "have": 23,
+      "name": "둔산동 정부청사 입구(남문)",
+      "have": 44,
       "target": 1
     },
     {
-      "name": "둔산동 정부청사 입구(남문)",
-      "have": 20,
+      "name": "용산동 대전테크노파크용산동 에스피에스",
+      "have": 23,
       "target": 0
     },
     {
-      "name": "어은동 한빛아파트(126동 앞)",
-      "have": 24,
-      "target": 5
+      "name": "가정동 화폐박물관",
+      "have": 22,
+      "target": 0
     },
     {
-      "name": "산성동 원마트",
-      "have": 19,
+      "name": "오정동 성진주택 ",
+      "have": 22,
+      "target": 1
+    },
+    {
+      "name": "만년동 갑천네거리",
+      "have": 23,
+      "target": 2
+    },
+    {
+      "name": "구성동 카이스트 정보전자동 (1410)",
+      "have": 22,
       "target": 1
     }
   ],
   "route": {
-    "stops": 23,
-    "km": 40.7,
-    "delivered": 85,
-    "needed": 85
+    "stops": 20,
+    "km": 35.7,
+    "delivered": 59,
+    "needed": 59
   },
   "schedule": [
     {
@@ -113,38 +113,38 @@
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 1134,
+      "bikes": 1179,
       "fill": [
         {
-          "name": "어은동 한빛아파트(125동 건너편)",
+          "name": "태평동 유등마을(112동)",
           "q": 14
         },
         {
-          "name": "태평동 유등마을(112동)",
+          "name": "어은동 한빛아파트(125동 건너편)",
           "q": 13
         },
         {
           "name": "어은동 어은치안센터 입구",
-          "q": 12
+          "q": 13
         },
         {
           "name": "어은동 한빛아파트(126동 건너편)",
           "q": 10
         },
         {
-          "name": "어은동 한빛아파트(126동 앞)",
+          "name": "내동 맑은아침아파트 121동 입구",
           "q": 10
         }
       ],
       "map": "route_10.html",
-      "km": 32.0,
+      "km": 33.7,
       "stops": 27
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1829,
+      "bikes": 1818,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,7 +168,7 @@
         }
       ],
       "map": "route_14.html",
-      "km": 51.7,
+      "km": 51.1,
       "stops": 33
     }
   ]
