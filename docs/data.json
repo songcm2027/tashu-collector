@@ -1,88 +1,88 @@
 {
-  "updated": "2026-10-30 23:31 UTC",
-  "snapshot": "2026-10-31 07:10:17",
+  "updated": "2026-10-31 23:03 UTC",
+  "snapshot": "2026-11-01 06:17:59",
   "daytype": "weekend",
   "stations": 1378,
-  "available": 2844,
-  "empty": 629,
-  "empty_pct": 45.6,
-  "to_add": 357,
+  "available": 2854,
+  "empty": 643,
+  "empty_pct": 46.7,
+  "to_add": 227,
   "short": [
-    {
-      "name": "전민동 행정복지센터 건너편",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "월평동 은뜰마을아파트 201동 앞",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "태평동 삼부프라자",
-      "have": 2,
-      "target": 5
-    },
-    {
-      "name": "상대동 진터네거리(도안4블럭 방면)",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "만년동 초원아파트105동 육교 밑",
-      "have": 1,
-      "target": 4
-    },
     {
       "name": "신흥동 SK뷰(106동)",
       "have": 0,
+      "target": 2
+    },
+    {
+      "name": "중촌동 행정복지센터 정류장",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "봉명동 매드블럭",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "대정동 모다아울렛",
+      "have": 1,
       "target": 3
+    },
+    {
+      "name": "원신흥동 갑천2블럭 트리풀시티 엘리프 정문 앞",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "산성동 멋티어린이공원",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
-      "name": "도룡동 스마트시티5단지",
-      "have": 29,
-      "target": 1
-    },
-    {
-      "name": "태평동 유등마을(112동)",
-      "have": 28,
-      "target": 3
-    },
-    {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 29,
-      "target": 4
-    },
-    {
-      "name": "유천동 태평초등학교",
-      "have": 27,
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 40,
       "target": 2
     },
     {
-      "name": "가장동 래미안 1단지 건너편(115동)",
-      "have": 27,
+      "name": "궁동 유성문화원",
+      "have": 33,
       "target": 3
     },
     {
-      "name": "가장동 들말어린이공원",
-      "have": 25,
+      "name": "태평동 버드내초등학교",
+      "have": 29,
+      "target": 2
+    },
+    {
+      "name": "어은동 어은치안센터 입구",
+      "have": 26,
+      "target": 3
+    },
+    {
+      "name": "가장동 가장교(성은사)",
+      "have": 23,
+      "target": 1
+    },
+    {
+      "name": "구성동 카이스트 다솜관",
+      "have": 24,
       "target": 2
     }
   ],
   "route": {
-    "stops": 19,
-    "km": 34.4,
-    "delivered": 45,
-    "needed": 45
+    "stops": 17,
+    "km": 26.6,
+    "delivered": 30,
+    "needed": 30
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "13:00",
       "label": "early morning",
-      "bikes": 952,
+      "bikes": 975,
       "fill": [
         {
           "name": "둔산동 타임월드",
@@ -106,18 +106,18 @@
         }
       ],
       "map": "route_05.html",
-      "km": 21.2,
+      "km": 21.1,
       "stops": 24
     },
     {
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1474,
+      "bikes": 1494,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
-          "q": 12
+          "q": 11
         },
         {
           "name": "도룡동 엑스포과학공원",
@@ -137,8 +137,8 @@
         }
       ],
       "map": "route_13.html",
-      "km": 53.5,
-      "stops": 29
+      "km": 55.4,
+      "stops": 30
     }
   ]
 }
