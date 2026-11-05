@@ -1,54 +1,59 @@
 {
-  "updated": "2026-11-04 00:24 UTC",
-  "snapshot": "2026-11-04 08:06:33",
+  "updated": "2026-11-05 00:48 UTC",
+  "snapshot": "2026-11-05 08:30:13",
   "daytype": "weekday",
   "stations": 1379,
-  "available": 2493,
-  "empty": 671,
-  "empty_pct": 48.7,
-  "to_add": 1204,
+  "available": 2838,
+  "empty": 661,
+  "empty_pct": 47.9,
+  "to_add": 1073,
   "short": [
     {
-      "name": "용두동 하늘채엘센트로",
-      "have": 0,
-      "target": 15
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 13,
+      "target": 25
     },
     {
       "name": "신성동 대림두레(101동)",
-      "have": 0,
+      "have": 2,
       "target": 13
-    },
-    {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 0,
-      "target": 12
-    },
-    {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 1,
-      "target": 13
-    },
-    {
-      "name": "월평동 다모아아파트 상가",
-      "have": 0,
-      "target": 12
     },
     {
       "name": "봉명동 봉명스타원 1차",
       "have": 0,
-      "target": 11
+      "target": 10
+    },
+    {
+      "name": "전민동 행정복지센터 건너편",
+      "have": 0,
+      "target": 9
+    },
+    {
+      "name": "월평1동 공영주차장 입구",
+      "have": 0,
+      "target": 8
+    },
+    {
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 4,
+      "target": 12
     }
   ],
   "surplus": [
     {
-      "name": "둔산동 정부청사 입구(남문)",
-      "have": 29,
+      "name": "월평동 대전교통공사",
+      "have": 27,
       "target": 0
     },
     {
-      "name": "월평동 대전교통공사",
-      "have": 29,
-      "target": 0
+      "name": "둔산동 샘머리아파트(209동)",
+      "have": 27,
+      "target": 5
+    },
+    {
+      "name": "태평동 유등마을(112동)",
+      "have": 32,
+      "target": 12
     },
     {
       "name": "오정동 성진주택 ",
@@ -56,33 +61,28 @@
       "target": 1
     },
     {
-      "name": "문화동 동산고등학교(문화1동 행정복지센터 건너편)",
+      "name": "태평동 버드내초등학교",
       "have": 22,
-      "target": 3
+      "target": 4
     },
     {
-      "name": "삼성동 한밭중네거리(북부교 방면)  ",
-      "have": 20,
-      "target": 1
-    },
-    {
-      "name": "산성동 한밭가든아파트(103동)",
-      "have": 20,
-      "target": 2
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
+      "have": 31,
+      "target": 13
     }
   ],
   "route": {
-    "stops": 29,
-    "km": 37.5,
-    "delivered": 136,
-    "needed": 136
+    "stops": 26,
+    "km": 39.8,
+    "delivered": 114,
+    "needed": 114
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1037,
+      "bikes": 1036,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -90,7 +90,7 @@
         },
         {
           "name": "봉명동 봉명스타원 1차",
-          "q": 11
+          "q": 10
         },
         {
           "name": "둔산동 세이브존",
@@ -106,14 +106,14 @@
         }
       ],
       "map": "route_05.html",
-      "km": 44.7,
-      "stops": 24
+      "km": 43.0,
+      "stops": 27
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 1321,
+      "bikes": 1332,
       "fill": [
         {
           "name": "어은동 한빛아파트(126동 건너편)",
@@ -137,14 +137,14 @@
         }
       ],
       "map": "route_10.html",
-      "km": 42.5,
-      "stops": 30
+      "km": 43.9,
+      "stops": 31
     },
     {
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1878,
+      "bikes": 1873,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 75.0,
-      "stops": 37
+      "km": 76.2,
+      "stops": 38
     }
   ]
 }
