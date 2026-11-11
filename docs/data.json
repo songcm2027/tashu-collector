@@ -1,88 +1,88 @@
 {
-  "updated": "2026-11-10 02:36 UTC",
-  "snapshot": "2026-11-10 10:24:27",
+  "updated": "2026-11-11 00:30 UTC",
+  "snapshot": "2026-11-11 08:06:47",
   "daytype": "weekday",
   "stations": 1378,
-  "available": 2703,
-  "empty": 711,
-  "empty_pct": 51.6,
-  "to_add": 736,
+  "available": 2587,
+  "empty": 694,
+  "empty_pct": 50.4,
+  "to_add": 1318,
   "short": [
     {
-      "name": "구성동 카이스트 다솜관",
+      "name": "어은동 한빛아파트(126동 건너편)",
       "have": 0,
-      "target": 7
+      "target": 25
     },
     {
-      "name": "어은동 카이스트 미르나래관",
+      "name": "신성동 대림두레(101동)",
       "have": 0,
-      "target": 4
+      "target": 13
     },
     {
-      "name": "오류동 서대전역",
-      "have": 1,
-      "target": 5
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 0,
+      "target": 12
     },
     {
-      "name": "궁동 온천교(충남대학교 방면)",
+      "name": "월평동 다모아아파트 상가",
       "have": 0,
-      "target": 4
+      "target": 12
     },
     {
-      "name": "봉명동 홈플러스 유성점",
-      "have": 0,
-      "target": 4
+      "name": "내동 맑은아침아파트 121동 입구",
+      "have": 2,
+      "target": 12
     },
     {
       "name": "어은동 어은치안센터 입구",
-      "have": 0,
-      "target": 4
+      "have": 6,
+      "target": 15
     }
   ],
   "surplus": [
     {
       "name": "둔산동 정부청사 입구(남문)",
-      "have": 94,
-      "target": 15
+      "have": 39,
+      "target": 0
     },
     {
-      "name": "구성동 카이스트 정보전자동 (1410)",
-      "have": 48,
-      "target": 2
-    },
-    {
-      "name": "궁동 충남대학교 학생회관",
-      "have": 49,
-      "target": 6
-    },
-    {
-      "name": "구성동 카이스트 창의학습관",
-      "have": 32,
+      "name": "산성동 당대어린이공원",
+      "have": 23,
       "target": 3
     },
     {
-      "name": "오룡역 1번출구",
-      "have": 30,
+      "name": "복수동 초록마을아파트 3단지",
+      "have": 21,
       "target": 2
     },
     {
-      "name": "선화동 선화참좋은아파트(유안타증권)",
-      "have": 25,
-      "target": 3
+      "name": "중리동 장안외과의원",
+      "have": 21,
+      "target": 2
+    },
+    {
+      "name": "오정동 통매바위어린이공원",
+      "have": 19,
+      "target": 1
+    },
+    {
+      "name": "삼성동 한밭중네거리(북부교 방면)  ",
+      "have": 18,
+      "target": 1
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 20.4,
-    "delivered": 59,
-    "needed": 59
+    "stops": 27,
+    "km": 34.6,
+    "delivered": 123,
+    "needed": 148
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1040,
+      "bikes": 1043,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -90,7 +90,7 @@
         },
         {
           "name": "봉명동 봉명스타원 1차",
-          "q": 10
+          "q": 9
         },
         {
           "name": "둔산동 세이브존",
@@ -106,8 +106,8 @@
         }
       ],
       "map": "route_05.html",
-      "km": 42.1,
-      "stops": 26
+      "km": 42.4,
+      "stops": 27
     },
     {
       "time": "10:00",
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1877,
+      "bikes": 1878,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -168,8 +168,8 @@
         }
       ],
       "map": "route_14.html",
-      "km": 77.5,
-      "stops": 37
+      "km": 74.1,
+      "stops": 39
     }
   ]
 }
