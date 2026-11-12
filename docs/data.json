@@ -1,88 +1,88 @@
 {
-  "updated": "2026-11-11 00:30 UTC",
-  "snapshot": "2026-11-11 08:06:47",
+  "updated": "2026-11-12 01:52 UTC",
+  "snapshot": "2026-11-12 09:22:49",
   "daytype": "weekday",
   "stations": 1378,
-  "available": 2587,
-  "empty": 694,
-  "empty_pct": 50.4,
-  "to_add": 1318,
+  "available": 2707,
+  "empty": 669,
+  "empty_pct": 48.5,
+  "to_add": 797,
   "short": [
+    {
+      "name": "구성동 카이스트 다솜관",
+      "have": 0,
+      "target": 15
+    },
     {
       "name": "어은동 한빛아파트(126동 건너편)",
       "have": 0,
-      "target": 25
-    },
-    {
-      "name": "신성동 대림두레(101동)",
-      "have": 0,
-      "target": 13
-    },
-    {
-      "name": "어은동 한빛아파트(126동 앞)",
-      "have": 0,
-      "target": 12
-    },
-    {
-      "name": "월평동 다모아아파트 상가",
-      "have": 0,
-      "target": 12
-    },
-    {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 2,
       "target": 12
     },
     {
       "name": "어은동 어은치안센터 입구",
-      "have": 6,
-      "target": 15
+      "have": 1,
+      "target": 12
+    },
+    {
+      "name": "어은동 한빛아파트(126동 앞)",
+      "have": 0,
+      "target": 7
+    },
+    {
+      "name": "궁동 버스정류장(유성구청 방향)",
+      "have": 0,
+      "target": 6
+    },
+    {
+      "name": "월평동 월평타운",
+      "have": 0,
+      "target": 6
     }
   ],
   "surplus": [
     {
       "name": "둔산동 정부청사 입구(남문)",
-      "have": 39,
+      "have": 94,
+      "target": 9
+    },
+    {
+      "name": "구성동 카이스트 정보전자동 (1410)",
+      "have": 28,
       "target": 0
     },
     {
-      "name": "산성동 당대어린이공원",
-      "have": 23,
-      "target": 3
-    },
-    {
-      "name": "복수동 초록마을아파트 3단지",
-      "have": 21,
-      "target": 2
-    },
-    {
-      "name": "중리동 장안외과의원",
-      "have": 21,
-      "target": 2
-    },
-    {
-      "name": "오정동 통매바위어린이공원",
-      "have": 19,
+      "name": "궁동 충남대학교 학생회관",
+      "have": 27,
       "target": 1
     },
     {
-      "name": "삼성동 한밭중네거리(북부교 방면)  ",
-      "have": 18,
+      "name": "오정동 통매바위어린이공원",
+      "have": 27,
+      "target": 1
+    },
+    {
+      "name": "용문동 용문역 3번출구",
+      "have": 28,
+      "target": 4
+    },
+    {
+      "name": "법동 대전지방국세청 서측",
+      "have": 23,
       "target": 1
     }
   ],
   "route": {
-    "stops": 27,
-    "km": 34.6,
-    "delivered": 123,
-    "needed": 148
+    "stops": 22,
+    "km": 26.0,
+    "delivered": 104,
+    "needed": 104
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1043,
+      "bikes": 1033,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,14 +106,14 @@
         }
       ],
       "map": "route_05.html",
-      "km": 42.4,
-      "stops": 27
+      "km": 40.3,
+      "stops": 26
     },
     {
       "time": "10:00",
       "until": "14:00",
       "label": "midday reset",
-      "bikes": 1351,
+      "bikes": 1356,
       "fill": [
         {
           "name": "어은동 한빛아파트(126동 건너편)",
@@ -144,7 +144,7 @@
       "time": "14:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1878,
+      "bikes": 1876,
       "fill": [
         {
           "name": "부사동 한화이글스파크",
@@ -163,12 +163,12 @@
           "q": 11
         },
         {
-          "name": "가정동 국립중앙과학관입구 (임시)",
+          "name": "봉명동 하이랜드 1차",
           "q": 10
         }
       ],
       "map": "route_14.html",
-      "km": 74.1,
+      "km": 77.1,
       "stops": 39
     }
   ]
