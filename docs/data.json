@@ -1,144 +1,175 @@
 {
-  "updated": "2026-11-14 23:40 UTC",
-  "snapshot": "2026-11-15 07:13:24",
-  "daytype": "weekend",
+  "updated": "2026-11-15 23:47 UTC",
+  "snapshot": "2026-11-16 07:42:24",
+  "daytype": "weekday",
   "stations": 1375,
-  "available": 2869,
-  "empty": 668,
-  "empty_pct": 48.6,
-  "to_add": 424,
+  "available": 2577,
+  "empty": 665,
+  "empty_pct": 48.4,
+  "to_add": 1076,
   "short": [
     {
-      "name": "봉명동 노블레스3",
+      "name": "둔산동 수정타운아파트 상가",
+      "have": 3,
+      "target": 13
+    },
+    {
+      "name": "용두동 하늘채엘센트로",
+      "have": 3,
+      "target": 10
+    },
+    {
+      "name": "둔산동 샘머리아파트(209동)",
       "have": 0,
+      "target": 7
+    },
+    {
+      "name": "전민동 엑스포아파트 4단지 건너편",
+      "have": 1,
       "target": 8
     },
     {
-      "name": "문평동 옥봉 신탄진물류센터",
+      "name": "봉산동 송강프라자 대각선 건너편",
       "have": 0,
-      "target": 4
+      "target": 7
     },
     {
-      "name": "궁동 다솔아파트 입구",
+      "name": "갈마동 갈마중학교입구(상수도사업본부 방면)정류장",
       "have": 0,
-      "target": 4
-    },
-    {
-      "name": "월평동 진달래아파트 상가 앞",
-      "have": 1,
-      "target": 4
-    },
-    {
-      "name": "장대동 궁동2교 (죽동 방향)",
-      "have": 0,
-      "target": 3
-    },
-    {
-      "name": "정림동 서구국민체육센터",
-      "have": 0,
-      "target": 3
+      "target": 6
     }
   ],
   "surplus": [
     {
-      "name": "용문동 둔산더샵엘리프 2단지(204동)",
-      "have": 48,
+      "name": "구성동 카이스트 다솜관",
+      "have": 44,
       "target": 4
-    },
-    {
-      "name": "중리동 장안외과의원",
-      "have": 39,
-      "target": 1
     },
     {
       "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 35,
-      "target": 4
+      "have": 33,
+      "target": 7
     },
     {
       "name": "태평동 버드내초등학교",
-      "have": 32,
-      "target": 3
+      "have": 31,
+      "target": 6
     },
     {
-      "name": "중촌동 푸르지오(정문)",
-      "have": 30,
-      "target": 3
+      "name": "궁동 다솔아파트 입구",
+      "have": 28,
+      "target": 5
     },
     {
-      "name": "내동 맑은아침아파트 121동 입구",
-      "have": 30,
-      "target": 4
+      "name": "오정동 오정농수산물 도매시장",
+      "have": 25,
+      "target": 2
+    },
+    {
+      "name": "중리동 수도시설관리사업소",
+      "have": 22,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 19,
-    "km": 36.5,
-    "delivered": 47,
-    "needed": 47
+    "stops": 22,
+    "km": 44.7,
+    "delivered": 92,
+    "needed": 92
   },
   "schedule": [
     {
       "time": "05:00",
-      "until": "13:00",
-      "label": "early morning",
-      "bikes": 987,
+      "until": "10:00",
+      "label": "before morning peak",
+      "bikes": 1027,
       "fill": [
         {
-          "name": "둔산동 타임월드",
-          "q": 6
-        },
-        {
-          "name": "갈마동 갈마역 2번출구",
-          "q": 6
+          "name": "둔산동 정부청사 입구(남문)",
+          "q": 14
         },
         {
           "name": "봉명동 봉명스타원 1차",
+          "q": 8
+        },
+        {
+          "name": "둔산동 세이브존",
+          "q": 7
+        },
+        {
+          "name": "어은동 유성구청",
           "q": 6
         },
         {
-          "name": "구성동 카이스트 서쪽 쪽문",
+          "name": "유천동 서대전역 후문 출구",
           "q": 6
-        },
-        {
-          "name": "궁동 온천교(충남대학교 방면)",
-          "q": 5
         }
       ],
       "map": "route_05.html",
-      "km": 20.9,
-      "stops": 23
+      "km": 38.7,
+      "stops": 25
     },
     {
-      "time": "13:00",
-      "until": "24:00",
-      "label": "before evening peak",
-      "bikes": 1564,
+      "time": "10:00",
+      "until": "14:00",
+      "label": "midday reset",
+      "bikes": 1356,
       "fill": [
         {
-          "name": "어은동 어은치안센터 입구",
-          "q": 11
-        },
-        {
-          "name": "부사동 한화이글스파크",
-          "q": 11
-        },
-        {
-          "name": "도룡동 엑스포과학공원",
-          "q": 10
-        },
-        {
           "name": "어은동 한빛아파트(126동 건너편)",
-          "q": 10
+          "q": 16
+        },
+        {
+          "name": "어은동 한빛아파트(126동 앞)",
+          "q": 15
+        },
+        {
+          "name": "태평동 유등마을(112동)",
+          "q": 14
         },
         {
           "name": "어은동 한빛아파트(125동 건너편)",
+          "q": 14
+        },
+        {
+          "name": "어은동 어은치안센터 입구",
+          "q": 13
+        }
+      ],
+      "map": "route_10.html",
+      "km": 38.8,
+      "stops": 30
+    },
+    {
+      "time": "14:00",
+      "until": "24:00",
+      "label": "before evening peak",
+      "bikes": 1877,
+      "fill": [
+        {
+          "name": "부사동 한화이글스파크",
+          "q": 18
+        },
+        {
+          "name": "구성동 카이스트 서쪽 쪽문",
+          "q": 16
+        },
+        {
+          "name": "어은동 한빛아파트(126동 건너편)",
+          "q": 11
+        },
+        {
+          "name": "관평동 대덕비즈센터 남문 맞은편",
+          "q": 11
+        },
+        {
+          "name": "봉명동 하이랜드 1차",
           "q": 10
         }
       ],
-      "map": "route_13.html",
-      "km": 59.9,
-      "stops": 31
+      "map": "route_14.html",
+      "km": 91.4,
+      "stops": 38
     }
   ]
 }
