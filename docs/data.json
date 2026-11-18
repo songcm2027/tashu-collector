@@ -1,88 +1,88 @@
 {
-  "updated": "2026-11-17 02:50 UTC",
-  "snapshot": "2026-11-17 10:48:57",
+  "updated": "2026-11-18 02:06 UTC",
+  "snapshot": "2026-11-18 09:51:01",
   "daytype": "weekday",
   "stations": 1375,
-  "available": 2678,
-  "empty": 704,
-  "empty_pct": 51.2,
-  "to_add": 706,
+  "available": 2738,
+  "empty": 718,
+  "empty_pct": 52.2,
+  "to_add": 900,
   "short": [
     {
       "name": "구성동 카이스트 다솜관",
       "have": 0,
+      "target": 15
+    },
+    {
+      "name": "어은동 어은치안센터 입구",
+      "have": 3,
+      "target": 12
+    },
+    {
+      "name": "봉명동 봉명스타원 1차",
+      "have": 0,
       "target": 8
     },
     {
-      "name": "궁동 충대정문오거리1(정문)",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "어은동 카이스트 미르나래관",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "궁동 온천교(충남대학교 방면)",
-      "have": 0,
-      "target": 4
-    },
-    {
       "name": "태평동 유등마을(112동)",
-      "have": 0,
-      "target": 4
+      "have": 1,
+      "target": 9
     },
     {
-      "name": "태평동 삼부새롬아파트 101동앞",
-      "have": 0,
-      "target": 4
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 4,
+      "target": 12
+    },
+    {
+      "name": "어은동 유성구청",
+      "have": 1,
+      "target": 9
     }
   ],
   "surplus": [
     {
-      "name": "궁동 충남대학교 학생회관",
-      "have": 81,
-      "target": 6
-    },
-    {
       "name": "둔산동 정부청사 입구(남문)",
-      "have": 85,
-      "target": 15
+      "have": 106,
+      "target": 9
     },
     {
-      "name": "구성동 카이스트 정보전자동 (1410)",
-      "have": 56,
-      "target": 2
+      "name": "궁동 충남대학교 학생회관",
+      "have": 76,
+      "target": 1
     },
     {
       "name": "구성동 카이스트 창의학습관",
-      "have": 43,
-      "target": 2
-    },
-    {
-      "name": "삼성동 솔브릿지 국제대학",
-      "have": 28,
-      "target": 2
+      "have": 46,
+      "target": 1
     },
     {
       "name": "오정동 오정농수산물 도매시장",
-      "have": 26,
+      "have": 40,
       "target": 2
+    },
+    {
+      "name": "구성동 카이스트 정보전자동 (1410)",
+      "have": 34,
+      "target": 0
+    },
+    {
+      "name": "용산동 대전테크노파크용산동 에스피에스",
+      "have": 25,
+      "target": 1
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 22.9,
-    "delivered": 60,
-    "needed": 60
+    "stops": 23,
+    "km": 25.8,
+    "delivered": 110,
+    "needed": 110
   },
   "schedule": [
     {
       "time": "05:00",
       "until": "10:00",
       "label": "before morning peak",
-      "bikes": 1019,
+      "bikes": 1021,
       "fill": [
         {
           "name": "둔산동 정부청사 입구(남문)",
@@ -106,7 +106,7 @@
         }
       ],
       "map": "route_05.html",
-      "km": 39.3,
+      "km": 41.0,
       "stops": 26
     },
     {
