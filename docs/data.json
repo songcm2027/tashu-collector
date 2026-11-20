@@ -1,81 +1,81 @@
 {
-  "updated": "2026-11-19 01:42 UTC",
-  "snapshot": "2026-11-19 09:08:32",
+  "updated": "2026-11-20 01:41 UTC",
+  "snapshot": "2026-11-20 09:32:03",
   "daytype": "weekday",
   "stations": 1375,
-  "available": 2753,
-  "empty": 652,
-  "empty_pct": 47.4,
-  "to_add": 808,
+  "available": 2870,
+  "empty": 632,
+  "empty_pct": 46.0,
+  "to_add": 742,
   "short": [
     {
-      "name": "어은동 한빛아파트(126동 건너편)",
-      "have": 0,
-      "target": 13
-    },
-    {
-      "name": "어은동 어은치안센터 입구",
-      "have": 0,
-      "target": 12
-    },
-    {
       "name": "구성동 카이스트 다솜관",
-      "have": 4,
+      "have": 0,
       "target": 14
     },
     {
-      "name": "어은동 한빛아파트(126동 앞)",
-      "have": 0,
-      "target": 8
+      "name": "어은동 어은치안센터 입구",
+      "have": 3,
+      "target": 12
     },
     {
-      "name": "서구 만년동 10(만년고 뒤편)",
-      "have": 0,
+      "name": "궁동 버스정류장(유성구청 방향)",
+      "have": 1,
       "target": 7
     },
     {
-      "name": "만년동 행정복지센터",
+      "name": "월평동 월평타운",
       "have": 0,
-      "target": 7
+      "target": 6
+    },
+    {
+      "name": "태평동 삼부새롬아파트 101동앞",
+      "have": 0,
+      "target": 6
+    },
+    {
+      "name": "용문동 둔산더샵엘리프 2단지(204동)",
+      "have": 0,
+      "target": 5
     }
   ],
   "surplus": [
     {
-      "name": "구성동 카이스트 정보전자동 (1410)",
-      "have": 46,
-      "target": 0
-    },
-    {
-      "name": "구성동 카이스트 오리연못",
-      "have": 39,
-      "target": 2
-    },
-    {
       "name": "둔산동 정부청사 입구(남문)",
-      "have": 46,
+      "have": 55,
       "target": 9
     },
     {
-      "name": "구성동 카이스트 창의학습관",
-      "have": 31,
-      "target": 1
+      "name": "도룡동 스마트시티5단지",
+      "have": 33,
+      "target": 2
     },
     {
-      "name": "가정동 화폐박물관",
+      "name": "구성동 카이스트 정보전자동 (1410)",
       "have": 28,
+      "target": 0
+    },
+    {
+      "name": "오정동 오정농수산물 도매시장",
+      "have": 27,
+      "target": 2
+    },
+    {
+      "name": "구성동 카이스트 창의학습관",
+      "have": 21,
       "target": 1
     },
     {
-      "name": "궁동 충남대학교 학생회관",
-      "have": 24,
-      "target": 1
+      "name": "구성동 카이스트 오리연못",
+      "have": 22,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 23,
-    "km": 29.6,
-    "delivered": 103,
-    "needed": 103
+    "stops": 22,
+    "km": 25.9,
+    "delivered": 84,
+    "needed": 84
   },
   "schedule": [
     {
@@ -137,7 +137,7 @@
         }
       ],
       "map": "route_10.html",
-      "km": 39.9,
+      "km": 41.5,
       "stops": 31
     },
     {
