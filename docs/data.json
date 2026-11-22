@@ -1,81 +1,81 @@
 {
-  "updated": "2026-11-21 01:06 UTC",
-  "snapshot": "2026-11-21 08:53:40",
+  "updated": "2026-11-22 00:07 UTC",
+  "snapshot": "2026-11-22 03:58:47",
   "daytype": "weekend",
   "stations": 1375,
-  "available": 2799,
-  "empty": 632,
-  "empty_pct": 46.0,
-  "to_add": 468,
+  "available": 2949,
+  "empty": 628,
+  "empty_pct": 45.7,
+  "to_add": 145,
   "short": [
     {
-      "name": "구성동 카이스트 다솜관",
-      "have": 2,
-      "target": 7
-    },
-    {
-      "name": "문평동 옥봉 신탄진물류센터",
+      "name": "가정동 국립중앙과학관입구 (임시)",
       "have": 0,
-      "target": 5
+      "target": 6
     },
     {
-      "name": "봉명동 봉명스타원 1차",
-      "have": 8,
-      "target": 12
-    },
-    {
-      "name": "도안동 도안 17단지 계룡리슈빌(1710동)",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "송강동 계룡한솔아파트(201동)",
-      "have": 0,
-      "target": 4
-    },
-    {
-      "name": "궁동 유성문화원",
+      "name": "봉명동 유성온천역 6번출구",
       "have": 1,
-      "target": 5
+      "target": 4
+    },
+    {
+      "name": "가정동 스타빌플러스 (임시)",
+      "have": 0,
+      "target": 3
+    },
+    {
+      "name": "월평동 백합네거리",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "도마동 제비뜰공원",
+      "have": 0,
+      "target": 2
+    },
+    {
+      "name": "용계동 도안우미린트리쉐이드 정문 (108동)",
+      "have": 0,
+      "target": 2
     }
   ],
   "surplus": [
     {
+      "name": "가장동 래미안 210동 건너편(스타벅스 옆)",
+      "have": 33,
+      "target": 2
+    },
+    {
       "name": "태평동 유등마을(112동)",
-      "have": 31,
-      "target": 5
+      "have": 30,
+      "target": 0
     },
     {
-      "name": "장대동 장대공원 내 놀이터 옆",
-      "have": 25,
-      "target": 4
-    },
-    {
-      "name": "오정동 오정농수산물 도매시장",
-      "have": 22,
-      "target": 1
-    },
-    {
-      "name": "봉명동 사이언스타운",
-      "have": 22,
+      "name": "갈마동 갈마초교삼거리(갈마네거리방면) 정류장",
+      "have": 29,
       "target": 1
     },
     {
       "name": "둔산동 샘머리아파트(209동)",
       "have": 26,
-      "target": 5
+      "target": 0
     },
     {
-      "name": "도룡동 스마트시티5단지",
-      "have": 21,
+      "name": "봉명동 사이언스타운",
+      "have": 24,
       "target": 1
+    },
+    {
+      "name": "어은동 한빛아파트(126동 건너편)",
+      "have": 24,
+      "target": 2
     }
   ],
   "route": {
-    "stops": 20,
-    "km": 40.5,
-    "delivered": 55,
-    "needed": 55
+    "stops": 18,
+    "km": 23.2,
+    "delivered": 33,
+    "needed": 33
   },
   "schedule": [
     {
@@ -113,7 +113,7 @@
       "time": "13:00",
       "until": "24:00",
       "label": "before evening peak",
-      "bikes": 1595,
+      "bikes": 1598,
       "fill": [
         {
           "name": "어은동 한빛아파트(126동 건너편)",
